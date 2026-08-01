@@ -1,0 +1,2275 @@
+[
+  {
+    "id": "adam-smith",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Smith",
+      "Smith",
+      "Adam Smith",
+      "Adam Smith"
+    ],
+    "birth": 1723,
+    "nationality": "Scottish"
+  },
+  {
+    "id": "adorno",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Adorno",
+      "Adorno",
+      "Theodor W. Adorno",
+      "Theodor W. Adorno"
+    ],
+    "birth": 1903,
+    "nationality": "German"
+  },
+  {
+    "id": "albert-the-great",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Albert le Grand",
+      "Albert the Great",
+      "Albertus Magnus"
+    ],
+    "birth": 1200,
+    "nationality": "German"
+  },
+  {
+    "id": "anders",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Günther Anders",
+      "Günther Anders"
+    ],
+    "birth": 1902,
+    "nationality": "German"
+  },
+  {
+    "id": "anscombe",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Elizabeth Anscombe",
+      "Elizabeth Anscombe",
+      "Anscombe",
+      "G.E.M. Anscombe"
+    ],
+    "birth": 1919,
+    "nationality": "British"
+  },
+  {
+    "id": "anselm",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Anselme de Cantorbéry",
+      "Anselm of Canterbury",
+      "Anselm",
+      "Anselmian"
+    ],
+    "birth": 1033,
+    "nationality": "Italian"
+  },
+  {
+    "id": "antisthenes",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Antisthène",
+      "Antisthenes"
+    ],
+    "birth": -445,
+    "nationality": "Greek"
+  },
+  {
+    "id": "aquinas",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Thomas d'Aquin",
+      "Thomas Aquinas",
+      "Thomas d'Aquin",
+      "Thomas Aquinas",
+      "Thomism",
+      "Thomist",
+      "Thomists",
+      "Aquinas"
+    ],
+    "birth": 1225,
+    "nationality": "Italian"
+  },
+  {
+    "id": "arcesilaus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Arcésilas",
+      "Arcesilaus"
+    ],
+    "birth": -316,
+    "nationality": "Greek"
+  },
+  {
+    "id": "arendt",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Hannah Arendt",
+      "Hannah Arendt",
+      "Arendt",
+      "Arendtian"
+    ],
+    "birth": 1906,
+    "nationality": "German-born American"
+  },
+  {
+    "id": "aristotle",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Aristote",
+      "Aristotle",
+      "Aristote",
+      "Aristotle",
+      "Aristotelian",
+      "Aristotelianism"
+    ],
+    "birth": -384,
+    "nationality": "Greek"
+  },
+  {
+    "id": "augustine",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Augustin",
+      "Augustine",
+      "Augustinian",
+      "Augustinianism"
+    ],
+    "birth": 354,
+    "nationality": "Roman African"
+  },
+  {
+    "id": "averroes",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Averroès",
+      "Averroes",
+      "Ibn Rushd",
+      "Averroist",
+      "Averroism"
+    ],
+    "birth": 1126,
+    "nationality": "Andalusian"
+  },
+  {
+    "id": "avicenna",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Avicenne",
+      "Avicenna",
+      "Ibn Sina",
+      "Avicennian",
+      "Avicennism"
+    ],
+    "birth": 980,
+    "nationality": "Persian"
+  },
+  {
+    "id": "bacon",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Bacon",
+      "Bacon",
+      "Francis Bacon",
+      "Francis Bacon",
+      "Baconian"
+    ],
+    "birth": 1561,
+    "nationality": "English"
+  },
+  {
+    "id": "badarayana",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Bādarāyaṇa",
+      "Bādarāyaṇa"
+    ],
+    "nationality": "Indian"
+  },
+  {
+    "id": "beauvoir",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Beauvoir",
+      "Beauvoir",
+      "Simone de Beauvoir",
+      "Simone de Beauvoir",
+      "Beauvoirian"
+    ],
+    "birth": 1908,
+    "nationality": "French"
+  },
+  {
+    "id": "beccaria",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Beccaria",
+      "Beccaria",
+      "Cesare Beccaria",
+      "Cesare Beccaria"
+    ],
+    "birth": 1738,
+    "nationality": "Italian"
+  },
+  {
+    "id": "bentham",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Bentham",
+      "Bentham",
+      "Jeremy Bentham",
+      "Jeremy Bentham",
+      "Benthamite",
+      "Benthamism"
+    ],
+    "birth": 1748,
+    "nationality": "English"
+  },
+  {
+    "id": "bergson",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Henri Bergson",
+      "Henri Bergson",
+      "Bergsonian",
+      "Bergsonism"
+    ],
+    "birth": 1859,
+    "nationality": "French"
+  },
+  {
+    "id": "berkeley",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "George Berkeley",
+      "George Berkeley",
+      "George Berkeley",
+      "George Berkeley",
+      "Berkeleian",
+      "Berkeleyan"
+    ],
+    "birth": 1685,
+    "nationality": "Irish"
+  },
+  {
+    "id": "berlin",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Isaiah Berlin",
+      "Isaiah Berlin"
+    ],
+    "birth": 1909,
+    "nationality": "British"
+  },
+  {
+    "id": "boethius",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Boèce",
+      "Boethius",
+      "Boethian"
+    ],
+    "birth": 477,
+    "nationality": "Roman"
+  },
+  {
+    "id": "bostrom",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Nick Bostrom",
+      "Nick Bostrom"
+    ],
+    "birth": 1973,
+    "nationality": "Swedish"
+  },
+  {
+    "id": "brentano",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Franz Brentano",
+      "Franz Brentano",
+      "Brentanian"
+    ],
+    "birth": 1838,
+    "nationality": "Austrian"
+  },
+  {
+    "id": "buddha",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Le Bouddha",
+      "The Buddha",
+      "Siddhārtha Gautama",
+      "Siddhārtha Gautama",
+      "Siddhartha Gautama",
+      "Gautama Buddha"
+    ],
+    "birth": -563,
+    "nationality": "Indian"
+  },
+  {
+    "id": "burke",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Burke",
+      "Burke",
+      "Burkean"
+    ],
+    "birth": 1729,
+    "nationality": "Anglo-Irish"
+  },
+  {
+    "id": "camus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Camus",
+      "Camus",
+      "Albert Camus",
+      "Albert Camus",
+      "Camusian"
+    ],
+    "birth": 1913,
+    "nationality": "French"
+  },
+  {
+    "id": "carnap",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Rudolf Carnap",
+      "Rudolf Carnap"
+    ],
+    "birth": 1891,
+    "nationality": "German"
+  },
+  {
+    "id": "chalmers",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Chalmers",
+      "Chalmers",
+      "David Chalmers",
+      "David Chalmers"
+    ],
+    "birth": 1966,
+    "nationality": "Australian"
+  },
+  {
+    "id": "chrysippus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Chrysippe",
+      "Chrysippus"
+    ],
+    "birth": -279,
+    "nationality": "Greek"
+  },
+  {
+    "id": "clausewitz",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Clausewitz",
+      "Clausewitz",
+      "Clausewitzian"
+    ],
+    "birth": 1780,
+    "nationality": "Prussian"
+  },
+  {
+    "id": "clifford",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "William Kingdon Clifford",
+      "William Kingdon Clifford"
+    ],
+    "birth": 1845,
+    "nationality": "British"
+  },
+  {
+    "id": "coleridge",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Coleridge",
+      "Coleridge",
+      "Coleridgean"
+    ],
+    "birth": 1772,
+    "nationality": "English"
+  },
+  {
+    "id": "comte",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Comte",
+      "Comte",
+      "Comtean"
+    ],
+    "birth": 1798,
+    "nationality": "French"
+  },
+  {
+    "id": "condillac",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Condillac",
+      "Condillac",
+      "Étienne Bonnot de Condillac",
+      "Étienne Bonnot de Condillac"
+    ],
+    "birth": 1714,
+    "nationality": "French"
+  },
+  {
+    "id": "condorcet",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Condorcet",
+      "Condorcet",
+      "Nicolas de Condorcet",
+      "Nicolas de Condorcet"
+    ],
+    "birth": 1743,
+    "nationality": "French"
+  },
+  {
+    "id": "confucius",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Confucius",
+      "Confucius",
+      "Kong Qiu (Kongzi, « Maître Kong »)",
+      "Kong Qiu (Kongzi, \"Master Kong\")",
+      "Kongzi",
+      "Kong Qiu",
+      "Master Kong"
+    ],
+    "birth": -551,
+    "nationality": "Chinese"
+  },
+  {
+    "id": "constant",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Constant",
+      "Constant",
+      "Benjamin Constant"
+    ],
+    "birth": 1767,
+    "nationality": "Franco-Swiss"
+  },
+  {
+    "id": "crates",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Cratès",
+      "Crates"
+    ],
+    "birth": -365,
+    "nationality": "Greek"
+  },
+  {
+    "id": "d-alembert",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "d'Alembert",
+      "d'Alembert",
+      "Jean le Rond d'Alembert",
+      "Jean le Rond d'Alembert"
+    ],
+    "birth": 1717,
+    "nationality": "French"
+  },
+  {
+    "id": "dennett",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Dennett",
+      "Dennett",
+      "Daniel Dennett",
+      "Daniel Dennett"
+    ],
+    "birth": 1942,
+    "nationality": "American"
+  },
+  {
+    "id": "derrida",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Derrida",
+      "Derrida",
+      "Derridean"
+    ],
+    "birth": 1930,
+    "nationality": "French"
+  },
+  {
+    "id": "descartes",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Descartes",
+      "Descartes",
+      "René Descartes",
+      "René Descartes",
+      "Cartesian"
+    ],
+    "birth": 1596,
+    "nationality": "French"
+  },
+  {
+    "id": "dewey",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "John Dewey",
+      "John Dewey",
+      "Deweyan"
+    ],
+    "birth": 1859,
+    "nationality": "American"
+  },
+  {
+    "id": "diderot",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Diderot",
+      "Diderot",
+      "Denis Diderot",
+      "Denis Diderot"
+    ],
+    "birth": 1713,
+    "nationality": "French"
+  },
+  {
+    "id": "diogenes",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Diogène de Sinope",
+      "Diogenes of Sinope",
+      "Diogène de Sinope, dit le Cynique",
+      "Diogenes of Sinope, the Cynic"
+    ],
+    "birth": -412,
+    "nationality": "Greek"
+  },
+  {
+    "id": "dogen",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Dōgen",
+      "Dōgen"
+    ],
+    "birth": 1200,
+    "nationality": "Japanese"
+  },
+  {
+    "id": "dostoevsky",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Dostoïevski",
+      "Dostoevsky",
+      "Fyodor Dostoevsky",
+      "Dostoyevsky"
+    ],
+    "birth": 1821,
+    "nationality": "Russian"
+  },
+  {
+    "id": "elisabeth-of-bohemia",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Élisabeth de Bohême",
+      "Elisabeth of Bohemia",
+      "Elisabeth",
+      "Elisabeth of Bohemia",
+      "Princess Elisabeth",
+      "Elisabeth of the Palatinate"
+    ],
+    "birth": 1618,
+    "nationality": "German"
+  },
+  {
+    "id": "ellul",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Jacques Ellul",
+      "Jacques Ellul"
+    ],
+    "birth": 1912,
+    "nationality": "French"
+  },
+  {
+    "id": "engels",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Friedrich Engels",
+      "Friedrich Engels"
+    ],
+    "birth": 1820,
+    "nationality": "German"
+  },
+  {
+    "id": "epictetus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Épictète",
+      "Epictetus"
+    ],
+    "birth": 50,
+    "nationality": "Greek"
+  },
+  {
+    "id": "epicurus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Épicure",
+      "Epicurus",
+      "Épicure de Samos",
+      "Epicurus of Samos",
+      "Epicurean",
+      "Epicureanism"
+    ],
+    "birth": -341,
+    "nationality": "Greek"
+  },
+  {
+    "id": "fanon",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Frantz Fanon",
+      "Frantz Fanon",
+      "Fanonian"
+    ],
+    "birth": 1925,
+    "nationality": "French (Martinique)"
+  },
+  {
+    "id": "feuerbach",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Ludwig Feuerbach",
+      "Ludwig Feuerbach",
+      "Feuerbach"
+    ],
+    "birth": 1804,
+    "nationality": "German"
+  },
+  {
+    "id": "feyerabend",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Feyerabend",
+      "Feyerabend",
+      "Feyerabendian"
+    ],
+    "birth": 1924,
+    "nationality": "Austrian"
+  },
+  {
+    "id": "fichte",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Fichte",
+      "Fichte",
+      "Johann Gottlieb Fichte",
+      "Johann Gottlieb Fichte",
+      "Fichtean"
+    ],
+    "birth": 1762,
+    "nationality": "German"
+  },
+  {
+    "id": "foucault",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Foucault",
+      "Foucault",
+      "Foucauldian"
+    ],
+    "birth": 1926,
+    "nationality": "French"
+  },
+  {
+    "id": "frankfurt",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Harry Frankfurt",
+      "Harry Frankfurt"
+    ],
+    "birth": 1929,
+    "nationality": "American"
+  },
+  {
+    "id": "frege",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Frege",
+      "Frege",
+      "Fregean"
+    ],
+    "birth": 1848,
+    "nationality": "German"
+  },
+  {
+    "id": "freud",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Sigmund Freud",
+      "Sigmund Freud",
+      "Freudian",
+      "Freudianism"
+    ],
+    "birth": 1856,
+    "nationality": "Austrian"
+  },
+  {
+    "id": "fukuyama",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Fukuyama",
+      "Fukuyama"
+    ],
+    "birth": 1952,
+    "nationality": "American"
+  },
+  {
+    "id": "galen-strawson",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Galen Strawson",
+      "Galen Strawson"
+    ],
+    "birth": 1952,
+    "nationality": "British"
+  },
+  {
+    "id": "gandhi",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Gandhi",
+      "Gandhi",
+      "Gandhian",
+      "Gandhism"
+    ],
+    "birth": 1869,
+    "nationality": "Indian"
+  },
+  {
+    "id": "gaudapada",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Gauḍapāda",
+      "Gauḍapāda"
+    ],
+    "nationality": "Indian"
+  },
+  {
+    "id": "gilligan",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Carol Gilligan",
+      "Carol Gilligan"
+    ],
+    "birth": 1936,
+    "nationality": "American"
+  },
+  {
+    "id": "goldman",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Alvin Goldman",
+      "Alvin Goldman"
+    ],
+    "birth": 1938,
+    "nationality": "American"
+  },
+  {
+    "id": "gorgias",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Gorgias",
+      "Gorgias"
+    ],
+    "birth": -483,
+    "nationality": "Greek (Sicily)"
+  },
+  {
+    "id": "gramsci",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Antonio Gramsci",
+      "Antonio Gramsci",
+      "Gramscian",
+      "Gramscism"
+    ],
+    "birth": 1891,
+    "nationality": "Italian"
+  },
+  {
+    "id": "griswold",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Charles Griswold",
+      "Charles Griswold"
+    ],
+    "birth": 1951,
+    "nationality": "American"
+  },
+  {
+    "id": "habermas",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Habermas",
+      "Habermas",
+      "Habermasian"
+    ],
+    "birth": 1929,
+    "nationality": "German"
+  },
+  {
+    "id": "hadot",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Pierre Hadot",
+      "Pierre Hadot"
+    ],
+    "birth": 1922,
+    "nationality": "French"
+  },
+  {
+    "id": "hayek",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Hayek",
+      "Hayek",
+      "Friedrich Hayek",
+      "Hayekian"
+    ],
+    "birth": 1899,
+    "nationality": "Austrian-British"
+  },
+  {
+    "id": "hegel",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Hegel",
+      "Hegel",
+      "Georg Wilhelm Friedrich Hegel",
+      "Georg Wilhelm Friedrich Hegel",
+      "Hegelian",
+      "Hegelianism"
+    ],
+    "birth": 1770,
+    "nationality": "German"
+  },
+  {
+    "id": "heidegger",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Heidegger",
+      "Heidegger",
+      "Heideggerian"
+    ],
+    "birth": 1889,
+    "nationality": "German"
+  },
+  {
+    "id": "helvetius",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Helvétius",
+      "Helvétius",
+      "Claude-Adrien Helvétius",
+      "Claude-Adrien Helvétius"
+    ],
+    "birth": 1715,
+    "nationality": "French"
+  },
+  {
+    "id": "heraclitus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Héraclite",
+      "Heraclitus",
+      "Heraclitean"
+    ],
+    "birth": -544,
+    "nationality": "Greek (Ephesus)"
+  },
+  {
+    "id": "herder",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Herder",
+      "Herder"
+    ],
+    "birth": 1744,
+    "nationality": "German"
+  },
+  {
+    "id": "hobbes",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Hobbes",
+      "Hobbes",
+      "Hobbesian"
+    ],
+    "birth": 1588,
+    "nationality": "English"
+  },
+  {
+    "id": "holbach",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "d'Holbach",
+      "d'Holbach",
+      "Paul-Henri Thiry, baron d'Holbach",
+      "Paul-Henri Thiry, Baron d'Holbach"
+    ],
+    "birth": 1723,
+    "nationality": "French (German-born)"
+  },
+  {
+    "id": "horkheimer",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Horkheimer",
+      "Horkheimer",
+      "Max Horkheimer",
+      "Max Horkheimer"
+    ],
+    "birth": 1895,
+    "nationality": "German"
+  },
+  {
+    "id": "hui-shi",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Hui Shi",
+      "Hui Shi"
+    ],
+    "birth": -370,
+    "nationality": "Chinese"
+  },
+  {
+    "id": "hume",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Hume",
+      "Hume",
+      "David Hume",
+      "David Hume",
+      "Humean"
+    ],
+    "birth": 1711,
+    "nationality": "Scottish"
+  },
+  {
+    "id": "husserl",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Husserl",
+      "Husserl",
+      "Edmund Husserl",
+      "Edmund Husserl",
+      "Husserlian"
+    ],
+    "birth": 1859,
+    "nationality": "German"
+  },
+  {
+    "id": "jankelevitch",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Jankélévitch",
+      "Jankélévitch"
+    ],
+    "birth": 1903,
+    "nationality": "French"
+  },
+  {
+    "id": "jonas",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Jonas",
+      "Jonas"
+    ],
+    "birth": 1903,
+    "nationality": "German"
+  },
+  {
+    "id": "kant",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Kant",
+      "Kant",
+      "Emmanuel Kant",
+      "Immanuel Kant",
+      "Kantian",
+      "Kantianism"
+    ],
+    "birth": 1724,
+    "nationality": "Prussian"
+  },
+  {
+    "id": "kierkegaard",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Kierkegaard",
+      "Kierkegaard",
+      "Kierkegaardian"
+    ],
+    "birth": 1813,
+    "nationality": "Danish"
+  },
+  {
+    "id": "la-mettrie",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "La Mettrie",
+      "La Mettrie"
+    ],
+    "birth": 1709,
+    "nationality": "French"
+  },
+  {
+    "id": "laozi",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Laozi",
+      "Laozi",
+      "Laozi 老子 (« le Vieux Maître »)",
+      "Laozi 老子 (\"the Old Master\")",
+      "Lao Tzu",
+      "Lao-tzu"
+    ],
+    "birth": -571,
+    "nationality": "Chinese"
+  },
+  {
+    "id": "leibniz",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Leibniz",
+      "Leibniz",
+      "Gottfried Wilhelm Leibniz",
+      "Gottfried Wilhelm Leibniz",
+      "Leibnizian"
+    ],
+    "birth": 1646,
+    "nationality": "German"
+  },
+  {
+    "id": "leopold",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Aldo Leopold",
+      "Aldo Leopold"
+    ],
+    "birth": 1887,
+    "nationality": "American"
+  },
+  {
+    "id": "levinas",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Emmanuel Levinas",
+      "Emmanuel Levinas",
+      "Levinasian"
+    ],
+    "birth": 1906,
+    "nationality": "French"
+  },
+  {
+    "id": "liezi",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Liezi",
+      "Liezi"
+    ],
+    "nationality": "Chinese"
+  },
+  {
+    "id": "locke",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Locke",
+      "Locke",
+      "John Locke",
+      "John Locke",
+      "Lockean"
+    ],
+    "birth": 1632,
+    "nationality": "English"
+  },
+  {
+    "id": "lucretius",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Lucrèce",
+      "Lucretius",
+      "Titus Lucretius Carus",
+      "Titus Lucretius Carus",
+      "Lucretian"
+    ],
+    "birth": -99,
+    "nationality": "Roman"
+  },
+  {
+    "id": "machiavelli",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Machiavel",
+      "Machiavelli",
+      "Nicolas Machiavel",
+      "Niccolò Machiavelli",
+      "Machiavellian",
+      "Machiavellianism"
+    ],
+    "birth": 1469,
+    "nationality": "Italian"
+  },
+  {
+    "id": "maimonides",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Maïmonide",
+      "Maimonides",
+      "Maimonidean"
+    ],
+    "birth": 1138,
+    "nationality": "Andalusian"
+  },
+  {
+    "id": "marcus-aurelius",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Marc Aurèle",
+      "Marcus Aurelius"
+    ],
+    "birth": 121,
+    "nationality": "Roman"
+  },
+  {
+    "id": "marx",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Marx",
+      "Marx",
+      "Karl Marx",
+      "Karl Marx",
+      "Marxist",
+      "Marxism",
+      "Marxian"
+    ],
+    "birth": 1818,
+    "nationality": "German"
+  },
+  {
+    "id": "max-more",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Max More",
+      "Max More"
+    ],
+    "birth": 1964,
+    "nationality": "Anglo-American"
+  },
+  {
+    "id": "mencius",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Mencius",
+      "Mencius",
+      "Mengzi"
+    ],
+    "birth": -372,
+    "nationality": "Chinese"
+  },
+  {
+    "id": "merleau-ponty",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Merleau-Ponty",
+      "Merleau-Ponty",
+      "Merleau-Pontian"
+    ],
+    "birth": 1908,
+    "nationality": "French"
+  },
+  {
+    "id": "metrodorus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Métrodore",
+      "Metrodorus"
+    ],
+    "birth": -331,
+    "nationality": "Greek"
+  },
+  {
+    "id": "mill",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Mill",
+      "Mill",
+      "John Stuart Mill",
+      "John Stuart Mill",
+      "Millian"
+    ],
+    "birth": 1806,
+    "nationality": "English"
+  },
+  {
+    "id": "montaigne",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Michel de Montaigne",
+      "Michel de Montaigne",
+      "Michel Eyquem de Montaigne",
+      "Michel Eyquem de Montaigne",
+      "Montaignian"
+    ],
+    "birth": 1533,
+    "nationality": "French"
+  },
+  {
+    "id": "montesquieu",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Montesquieu",
+      "Montesquieu",
+      "Charles-Louis de Secondat, baron de Montesquieu",
+      "Charles-Louis de Secondat, Baron de Montesquieu"
+    ],
+    "birth": 1689,
+    "nationality": "French"
+  },
+  {
+    "id": "moore",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Moore",
+      "Moore",
+      "Moorean"
+    ],
+    "birth": 1873,
+    "nationality": "English"
+  },
+  {
+    "id": "morin",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Morin",
+      "Morin",
+      "Edgar Morin",
+      "complex thought"
+    ],
+    "birth": 1921,
+    "nationality": "French"
+  },
+  {
+    "id": "naess",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Arne Næss",
+      "Arne Næss"
+    ],
+    "birth": 1912,
+    "nationality": "Norwegian"
+  },
+  {
+    "id": "nagarjuna",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Nāgārjuna",
+      "Nāgārjuna",
+      "Nagarjuna"
+    ],
+    "birth": 150,
+    "nationality": "Indian"
+  },
+  {
+    "id": "nagel",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Nagel",
+      "Nagel",
+      "Thomas Nagel",
+      "Thomas Nagel"
+    ],
+    "birth": 1937,
+    "nationality": "American"
+  },
+  {
+    "id": "newton",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Newton",
+      "Newton",
+      "Isaac Newton",
+      "Isaac Newton",
+      "Newtonian"
+    ],
+    "birth": 1643,
+    "nationality": "English"
+  },
+  {
+    "id": "nietzsche",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Nietzsche",
+      "Nietzsche",
+      "Friedrich Nietzsche",
+      "Friedrich Nietzsche",
+      "Nietzschean"
+    ],
+    "birth": 1844,
+    "nationality": "German"
+  },
+  {
+    "id": "novalis",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Novalis",
+      "Novalis",
+      "Friedrich von Hardenberg"
+    ],
+    "birth": 1772,
+    "nationality": "German"
+  },
+  {
+    "id": "nozick",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Nozick",
+      "Nozick",
+      "Nozickian"
+    ],
+    "birth": 1938,
+    "nationality": "American"
+  },
+  {
+    "id": "nussbaum",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Martha Nussbaum",
+      "Martha Nussbaum"
+    ],
+    "birth": 1947,
+    "nationality": "American"
+  },
+  {
+    "id": "ogien",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Ruwen Ogien",
+      "Ruwen Ogien"
+    ],
+    "birth": 1947,
+    "nationality": "French"
+  },
+  {
+    "id": "paine",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Thomas Paine",
+      "Thomas Paine",
+      "Paineite"
+    ],
+    "birth": 1737,
+    "nationality": "Anglo-American"
+  },
+  {
+    "id": "parfit",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Derek Parfit",
+      "Derek Parfit",
+      "Parfitian"
+    ],
+    "birth": 1942,
+    "nationality": "British"
+  },
+  {
+    "id": "parmenides",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Parménide",
+      "Parmenides",
+      "Parmenidean"
+    ],
+    "birth": -515,
+    "nationality": "Greek (Elea)"
+  },
+  {
+    "id": "pascal",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Pascal",
+      "Pascal",
+      "Pascalian"
+    ],
+    "birth": 1623,
+    "nationality": "French"
+  },
+  {
+    "id": "peirce",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Charles Sanders Peirce",
+      "Charles Sanders Peirce",
+      "Charles Sanders Peirce",
+      "Charles Sanders Peirce",
+      "Peircean"
+    ],
+    "birth": 1839,
+    "nationality": "American"
+  },
+  {
+    "id": "pereboom",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Derk Pereboom",
+      "Derk Pereboom"
+    ],
+    "birth": 1957,
+    "nationality": "American"
+  },
+  {
+    "id": "peter-strawson",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Peter Strawson",
+      "Peter Strawson",
+      "P. F. Strawson"
+    ],
+    "birth": 1919,
+    "nationality": "British"
+  },
+  {
+    "id": "plantinga",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Plantinga",
+      "Plantinga",
+      "Alvin Plantinga"
+    ],
+    "birth": 1932,
+    "nationality": "American"
+  },
+  {
+    "id": "plato",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Platon",
+      "Plato",
+      "Platonic"
+    ],
+    "birth": -428,
+    "nationality": "Greek"
+  },
+  {
+    "id": "plotinus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Plotin",
+      "Plotinus",
+      "Plotin",
+      "Plotinus",
+      "Plotinian"
+    ],
+    "birth": 204,
+    "nationality": "Greek"
+  },
+  {
+    "id": "popper",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Popper",
+      "Popper",
+      "Popperian"
+    ],
+    "birth": 1902,
+    "nationality": "Austrian-British"
+  },
+  {
+    "id": "protagoras",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Protagoras",
+      "Protagoras"
+    ],
+    "birth": -490,
+    "nationality": "Greek (Abdera)"
+  },
+  {
+    "id": "pyrrho",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Pyrrhon",
+      "Pyrrho",
+      "Pyrrhon d'Élis",
+      "Pyrrho of Elis",
+      "Pyrrhonian",
+      "Pyrrhonism"
+    ],
+    "birth": -360,
+    "nationality": "Greek"
+  },
+  {
+    "id": "ramsey",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Frank Ramsey",
+      "Frank Ramsey"
+    ],
+    "birth": 1903,
+    "nationality": "British"
+  },
+  {
+    "id": "rawls",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Rawls",
+      "Rawls",
+      "Rawlsian"
+    ],
+    "birth": 1921,
+    "nationality": "American"
+  },
+  {
+    "id": "regan",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Tom Regan",
+      "Tom Regan",
+      "Reganian"
+    ],
+    "birth": 1938,
+    "nationality": "American"
+  },
+  {
+    "id": "reid",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Thomas Reid",
+      "Thomas Reid"
+    ],
+    "birth": 1710,
+    "nationality": "Scottish"
+  },
+  {
+    "id": "ricoeur",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Paul Ricœur",
+      "Paul Ricœur",
+      "Ricoeur",
+      "Ricoeurian"
+    ],
+    "birth": 1913,
+    "nationality": "French"
+  },
+  {
+    "id": "rousseau",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Rousseau",
+      "Rousseau",
+      "Jean-Jacques Rousseau",
+      "Jean-Jacques Rousseau",
+      "Rousseauian",
+      "Rousseauist"
+    ],
+    "birth": 1712,
+    "nationality": "Genevan"
+  },
+  {
+    "id": "russell",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Russell",
+      "Russell",
+      "Bertrand Russell",
+      "Bertrand Russell",
+      "Russellian"
+    ],
+    "birth": 1872,
+    "nationality": "British"
+  },
+  {
+    "id": "ryder",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Richard Ryder",
+      "Richard Ryder"
+    ],
+    "birth": 1940,
+    "nationality": "British"
+  },
+  {
+    "id": "sandel",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Sandel",
+      "Sandel"
+    ],
+    "birth": 1953,
+    "nationality": "American"
+  },
+  {
+    "id": "sartre",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Sartre",
+      "Sartre",
+      "Jean-Paul Sartre",
+      "Jean-Paul Sartre",
+      "Sartrean"
+    ],
+    "birth": 1905,
+    "nationality": "French"
+  },
+  {
+    "id": "schelling",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Schelling",
+      "Schelling",
+      "Schellingian"
+    ],
+    "birth": 1775,
+    "nationality": "German"
+  },
+  {
+    "id": "schiller",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Schiller",
+      "Schiller",
+      "Schillerian"
+    ],
+    "birth": 1759,
+    "nationality": "German"
+  },
+  {
+    "id": "schopenhauer",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Schopenhauer",
+      "Schopenhauer",
+      "Arthur Schopenhauer",
+      "Arthur Schopenhauer",
+      "Schopenhauerian"
+    ],
+    "birth": 1788,
+    "nationality": "German"
+  },
+  {
+    "id": "schweitzer",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Albert Schweitzer",
+      "Albert Schweitzer"
+    ],
+    "birth": 1875,
+    "nationality": "Franco-German"
+  },
+  {
+    "id": "searle",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Searle",
+      "Searle",
+      "John Searle",
+      "John Searle",
+      "Searlean"
+    ],
+    "birth": 1932,
+    "nationality": "American"
+  },
+  {
+    "id": "sen",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Sen",
+      "Sen",
+      "Amartya Sen"
+    ],
+    "birth": 1933,
+    "nationality": "Indian"
+  },
+  {
+    "id": "seneca",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Sénèque",
+      "Seneca",
+      "Lucius Annaeus Seneca",
+      "Lucius Annaeus Seneca",
+      "Seneca the Younger"
+    ],
+    "birth": -4,
+    "nationality": "Roman"
+  },
+  {
+    "id": "sextus-empiricus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Sextus Empiricus",
+      "Sextus Empiricus",
+      "Sextus"
+    ],
+    "birth": 160,
+    "nationality": "Greek"
+  },
+  {
+    "id": "shankara",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Śaṅkara",
+      "Śaṅkara",
+      "Ādi Śaṅkara",
+      "Adi Shankara",
+      "Shankara",
+      "Shankaracharya"
+    ],
+    "birth": 700,
+    "nationality": "Indian"
+  },
+  {
+    "id": "sidgwick",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Sidgwick",
+      "Sidgwick",
+      "Sidgwickian"
+    ],
+    "birth": 1838,
+    "nationality": "English"
+  },
+  {
+    "id": "simone-weil",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Simone Weil",
+      "Simone Weil"
+    ],
+    "birth": 1909,
+    "nationality": "French"
+  },
+  {
+    "id": "singer",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Singer",
+      "Singer"
+    ],
+    "birth": 1946,
+    "nationality": "Australian"
+  },
+  {
+    "id": "skinner",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Skinner",
+      "Skinner",
+      "Quentin Skinner"
+    ],
+    "birth": 1940,
+    "nationality": "British"
+  },
+  {
+    "id": "smart",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Smart",
+      "Smart",
+      "John Jamieson Carswell Smart",
+      "John Jamieson Carswell Smart"
+    ],
+    "birth": 1920,
+    "nationality": "British, later Australian"
+  },
+  {
+    "id": "socrates",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Socrate",
+      "Socrates",
+      "Socratic"
+    ],
+    "birth": -470,
+    "nationality": "Greek (Athenian)"
+  },
+  {
+    "id": "sorel",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Georges Sorel",
+      "Georges Sorel"
+    ],
+    "birth": 1847,
+    "nationality": "French"
+  },
+  {
+    "id": "spinoza",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Spinoza",
+      "Spinoza",
+      "Baruch Spinoza",
+      "Baruch Spinoza",
+      "Spinozist",
+      "Spinozism"
+    ],
+    "birth": 1632,
+    "nationality": "Dutch"
+  },
+  {
+    "id": "strawson",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Strawson",
+      "Strawson",
+      "Galen Strawson",
+      "Galen Strawson"
+    ],
+    "birth": 1952,
+    "nationality": "British"
+  },
+  {
+    "id": "susan-wolf",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Susan Wolf",
+      "Susan Wolf"
+    ],
+    "birth": 1952,
+    "nationality": "American"
+  },
+  {
+    "id": "thales",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Thalès",
+      "Thales",
+      "Thalès de Milet",
+      "Thales of Miletus",
+      "Thales of Miletus"
+    ],
+    "birth": -625,
+    "nationality": "Greek"
+  },
+  {
+    "id": "thoreau",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Thoreau",
+      "Thoreau",
+      "Henry David Thoreau",
+      "Henry David Thoreau",
+      "Henry David Thoreau"
+    ],
+    "birth": 1817,
+    "nationality": "American"
+  },
+  {
+    "id": "thrasymachus",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Thrasymaque",
+      "Thrasymachus"
+    ],
+    "birth": -459,
+    "nationality": "Greek"
+  },
+  {
+    "id": "tolstoy",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Léon Tolstoï",
+      "Leo Tolstoy",
+      "Tolstoyan",
+      "Tolstoyism",
+      "Tolstoi"
+    ],
+    "birth": 1828,
+    "nationality": "Russian"
+  },
+  {
+    "id": "turing",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Turing",
+      "Turing",
+      "Alan Turing",
+      "Alan Turing",
+      "Alan Turing"
+    ],
+    "birth": 1912,
+    "nationality": "British"
+  },
+  {
+    "id": "van-inwagen",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Peter van Inwagen",
+      "Peter van Inwagen"
+    ],
+    "birth": 1942,
+    "nationality": "American"
+  },
+  {
+    "id": "voltaire",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Voltaire",
+      "Voltaire",
+      "François-Marie Arouet, dit Voltaire",
+      "François-Marie Arouet, known as Voltaire",
+      "Voltairean",
+      "Voltairian",
+      "Arouet"
+    ],
+    "birth": 1694,
+    "nationality": "French"
+  },
+  {
+    "id": "walzer",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Michael Walzer",
+      "Michael Walzer"
+    ],
+    "birth": 1935,
+    "nationality": "American"
+  },
+  {
+    "id": "weber",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Max Weber",
+      "Max Weber",
+      "Weberian"
+    ],
+    "birth": 1864,
+    "nationality": "German"
+  },
+  {
+    "id": "whitehead",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Alfred North Whitehead",
+      "Alfred North Whitehead",
+      "Whiteheadian"
+    ],
+    "birth": 1861,
+    "nationality": "British"
+  },
+  {
+    "id": "wilde",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Wilde",
+      "Wilde",
+      "Oscar Wilde",
+      "Oscar Wilde",
+      "Oscar Wilde"
+    ],
+    "birth": 1854,
+    "nationality": "Irish"
+  },
+  {
+    "id": "william-james",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "William James",
+      "William James"
+    ],
+    "birth": 1842,
+    "nationality": "American"
+  },
+  {
+    "id": "williams",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Bernard Williams",
+      "Bernard Williams"
+    ],
+    "birth": 1929,
+    "nationality": "British"
+  },
+  {
+    "id": "wittgenstein",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Wittgenstein",
+      "Wittgenstein",
+      "Ludwig Wittgenstein",
+      "Ludwig Wittgenstein",
+      "Wittgensteinian"
+    ],
+    "birth": 1889,
+    "nationality": "Austrian, later British"
+  },
+  {
+    "id": "xunzi",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Xunzi",
+      "Xunzi"
+    ],
+    "birth": -310,
+    "nationality": "Chinese"
+  },
+  {
+    "id": "zeno-of-citium",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Zénon de Citium",
+      "Zeno of Citium"
+    ],
+    "birth": -334,
+    "nationality": "Greek"
+  },
+  {
+    "id": "zhuangzi",
+    "kind": "PHILOSOPHER",
+    "names": [
+      "Zhuangzi",
+      "Zhuangzi",
+      "Zhuang Zhou 莊周, dit Zhuangzi (« Maître Zhuang »)",
+      "Zhuang Zhou 莊周, called Zhuangzi (\"Master Zhuang\")",
+      "Chuang Tzu"
+    ],
+    "birth": -369,
+    "nationality": "Chinese"
+  },
+  {
+    "id": "analytic-philosophy",
+    "kind": "MOVEMENT",
+    "names": [
+      "Philosophie analytique",
+      "Analytic Philosophy"
+    ]
+  },
+  {
+    "id": "aristotelianism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Aristotélisme",
+      "Aristotelianism"
+    ]
+  },
+  {
+    "id": "buddhism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Bouddhisme",
+      "Buddhism"
+    ]
+  },
+  {
+    "id": "confucianism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Confucianisme",
+      "Confucianism"
+    ]
+  },
+  {
+    "id": "cynicism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Cynisme",
+      "Cynicism"
+    ]
+  },
+  {
+    "id": "empiricism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Empirisme",
+      "Empiricism"
+    ]
+  },
+  {
+    "id": "enlightenment",
+    "kind": "MOVEMENT",
+    "names": [
+      "Les Lumières",
+      "The Enlightenment"
+    ]
+  },
+  {
+    "id": "environmental-ethics",
+    "kind": "MOVEMENT",
+    "names": [
+      "Éthique environnementale",
+      "Environmental Ethics"
+    ]
+  },
+  {
+    "id": "epicureanism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Épicurisme",
+      "Epicureanism"
+    ]
+  },
+  {
+    "id": "existentialism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Existentialisme",
+      "Existentialism"
+    ]
+  },
+  {
+    "id": "german-idealism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Idéalisme allemand",
+      "German Idealism"
+    ]
+  },
+  {
+    "id": "liberalism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Libéralisme",
+      "Liberalism"
+    ]
+  },
+  {
+    "id": "marxism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Marxisme",
+      "Marxism"
+    ]
+  },
+  {
+    "id": "phenomenology",
+    "kind": "MOVEMENT",
+    "names": [
+      "Phénoménologie",
+      "Phenomenology"
+    ]
+  },
+  {
+    "id": "platonism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Platonisme",
+      "Platonism"
+    ]
+  },
+  {
+    "id": "pragmatism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Pragmatisme",
+      "Pragmatism"
+    ]
+  },
+  {
+    "id": "rationalism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Rationalisme",
+      "Rationalism"
+    ]
+  },
+  {
+    "id": "romanticism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Le romantisme",
+      "Romanticism"
+    ]
+  },
+  {
+    "id": "skepticism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Scepticisme",
+      "Skepticism"
+    ]
+  },
+  {
+    "id": "stoicism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Stoïcisme",
+      "Stoicism"
+    ]
+  },
+  {
+    "id": "taoism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Taoïsme",
+      "Taoism"
+    ]
+  },
+  {
+    "id": "transhumanism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Transhumanisme",
+      "Transhumanism"
+    ]
+  },
+  {
+    "id": "utilitarianism",
+    "kind": "MOVEMENT",
+    "names": [
+      "Utilitarisme",
+      "Utilitarianism"
+    ]
+  },
+  {
+    "id": "vedanta",
+    "kind": "MOVEMENT",
+    "names": [
+      "Vedānta (Advaita)",
+      "Vedānta (Advaita)"
+    ]
+  },
+  {
+    "id": "antigone",
+    "kind": "CHARACTER",
+    "names": [
+      "Antigone",
+      "Antigone"
+    ]
+  },
+  {
+    "id": "callicles",
+    "kind": "CHARACTER",
+    "names": [
+      "Calliclès",
+      "Callicles"
+    ]
+  },
+  {
+    "id": "meursault",
+    "kind": "CHARACTER",
+    "names": [
+      "Meursault",
+      "Meursault"
+    ]
+  },
+  {
+    "id": "odysseus",
+    "kind": "CHARACTER",
+    "names": [
+      "Ulysse",
+      "Odysseus"
+    ]
+  }
+]

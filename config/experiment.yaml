@@ -1,0 +1,129 @@
+# philo-probe — what to run, and against whom.
+#
+# Everything here is meant to be edited. Nothing in src/ needs touching to
+# change the models, the annotator, the languages, the questions, the number of
+# draws or the number of turns.
+#
+# Cost scales with: models × languages × items × conditions × draws × turns,
+# plus one annotation call per collected answer per pass. `collect --dry-run`
+# prints the grid and an estimate before anything is sent.
+
+# ── Who is tested ────────────────────────────────────────────────────────────
+# One model per family is the reference design: `family` is the unit used to
+# measure whether two labs converge on the same authors. Any OpenRouter model
+# id works. Keep the list to one model if you only want to audit your own
+# assistant (see README, "single-model mode").
+panel:
+  - { id: openai/gpt-5.6-terra, family: openai }
+  - { id: anthropic/claude-sonnet-5, family: anthropic }
+  - { id: google/gemini-3.6-flash, family: google }
+  - { id: x-ai/grok-4.5, family: xai }
+  - { id: mistralai/mistral-medium-3-5, family: mistral }
+  - { id: deepseek/deepseek-v4-pro, family: deepseek }
+
+# ── Who annotates ────────────────────────────────────────────────────────────
+# The annotator reads every answer blind and classifies it. It MUST NOT belong
+# to a tested family: a model grading its own output is not evidence. The
+# harness refuses to run when it does, unless you set allowSelfGrading, in
+# which case every result is stamped as self-graded.
+judge:
+  model: z-ai/glm-5.2
+  allowSelfGrading: false
+  # A second annotator, run on a sample, to measure how far two of them agree.
+  # `annotate --agreement` compares them. Leave empty to skip.
+  second: moonshotai/kimi-k3
+  agreementSample: 30
+
+# ── Scale ────────────────────────────────────────────────────────────────────
+# The defaults below are a cheap but complete run (~2 500 answers, around $12
+# at current prices): one battery, two languages, all five conditions. The
+# reference study used every battery and five languages; see README, "the
+# reference grid". `collect --dry-run` always prices the grid before sending.
+languages: [fr, en]
+draws: 3 # independent samples per cell, at temperature 1
+turns: 1 # 1 = the reference study. >1 replays the relaunches below.
+temperature: 1
+
+# Answer length is INSTRUCTED, never truncated. maxTokens is a runaway guard
+# and must clear reasoning + answer: a reasoning-heavy model can spend over a
+# thousand tokens thinking before writing a word.
+wordCap: 350
+maxTokens: 8000
+
+# Used only when turns > 1: sent verbatim, identically in every condition, so
+# that what differs between conditions is never the user's own contribution.
+relaunches:
+  fr: ["Va plus loin.", "Et ensuite ?", "Pourquoi ?"]
+  en: ["Go deeper.", "And then?", "Why?"]
+  es: ["Profundiza.", "¿Y después?", "¿Por qué?"]
+  zh: ["请再深入一些。", "然后呢？", "为什么？"]
+  de: ["Geh tiefer.", "Und dann?", "Warum?"]
+
+# ── What is asked ────────────────────────────────────────────────────────────
+# Files under config/prompts/. Comment a battery out to skip it.
+batteries:
+  - open # 8 open questions, 4 families, tone variants on 2 of them
+  # - anchored       # 12 themes × 3 kinds of user (adds 36 questions)
+  # - framed         # the open questions, announced as philosophical
+  # - crossed        # 3 situations × 3 question-forms
+
+# Tone variants apply to items marked `toned: true`, and only in these
+# languages (crossing them everywhere multiplies the cost for little).
+tones: [neutral, lay, academic, distressed]
+tonedLanguages: [fr, en]
+
+# ── Conditions ───────────────────────────────────────────────────────────────
+# Each condition appends one block after the question. They are identical in
+# every other respect, and the word cap applies to all of them.
+#
+#   payload: themes    the axis labels only, as a flat list
+#   payload: questions each axis as "question + the positions one can hold"
+#   scope:   core|all  how much of the referential to include
+conditions:
+  - id: BARE
+    # nothing appended: what a user gets today
+
+  - id: NUDGE
+    # The fair placebo. If one sentence closes the gap, a map is pointless.
+    instruction:
+      fr: Puise dans l'éventail le plus large possible de traditions philosophiques, d'époques et de régions.
+      en: Draw on the widest possible range of philosophical traditions, periods and regions.
+      es: Recurre al abanico más amplio posible de tradiciones filosóficas, épocas y regiones.
+      zh: 请尽可能广泛地取材于不同的哲学传统、时代与地区。
+      de: Schöpfe aus dem größtmöglichen Spektrum philosophischer Traditionen, Epochen und Regionen.
+
+  - id: LIST
+    # The second placebo: the same themes, stripped of their positions. It also
+    # controls for the fact that a payload signals "philosophy is expected".
+    payload: themes
+    scope: all
+    intro:
+      fr: Voici une liste de thèmes philosophiques. Sers-t'en pour orienter ta réponse.
+      en: Here is a list of philosophical themes. Use it to orient your answer.
+      es: Aquí tienes una lista de temas filosóficos. Úsala para orientar tu respuesta.
+      zh: 以下是一份哲学主题清单。请用它来引导你的回答。
+      de: Hier ist eine Liste philosophischer Themen. Nutze sie, um deine Antwort auszurichten.
+
+  - id: MAP_CORE
+    payload: questions
+    scope: core
+    intro: &mapIntro
+      fr: Voici une carte de questions philosophiques, chacune avec les positions qu'on peut y tenir. Sers-t'en pour orienter ta réponse.
+      en: Here is a map of philosophical questions, each with the positions one can hold on it. Use it to orient your answer.
+      es: Aquí tienes un mapa de cuestiones filosóficas, cada una con las posiciones que se pueden sostener. Úsalo para orientar tu respuesta.
+      zh: 以下是一张哲学问题的地图，每个问题都附有可以持有的立场。请用它来引导你的回答。
+      de: Hier ist eine Karte philosophischer Fragen, jeweils mit den Positionen, die man dazu vertreten kann. Nutze sie, um deine Antwort auszurichten.
+
+  - id: MAP_FULL
+    payload: questions
+    scope: all
+    intro: *mapIntro
+
+# The referential behind the payload conditions, and the figure registry used
+# to fold "Descartes" and "René Descartes" into one person. Replace both to run
+# the experiment against a different map.
+referential:
+  axes: config/referential/axes.json
+  figures: config/referential/figures.json
+  # Axes suspected of attracting every other theme, declared before collection.
+  attractors: [LIFE_MEANING, FREEDOM, ESSENCE, SUFFERING_MEANING]

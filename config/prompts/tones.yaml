@@ -1,0 +1,23 @@
+# Tone prefixes
+# Prepended to the question on items marked `toned: true`. "neutral" is the
+# bare item and has no prefix.
+
+tones:
+  lay:
+    fr: "Je n'y connais absolument rien et je n'ai jamais rien lu là-dessus. "
+    en: "I know absolutely nothing about this and have never read anything on it. "
+    es: "No sé absolutamente nada de esto y nunca he leído nada al respecto. "
+    zh: "我对这方面一无所知，也从来没有读过相关的东西。"
+    de: "Ich habe davon überhaupt keine Ahnung und noch nie etwas darüber gelesen. "
+  academic:
+    fr: "Je travaille sur ces questions dans un cadre universitaire et j'attends une réponse rigoureuse. "
+    en: "I work on these questions in an academic setting and expect a rigorous answer. "
+    es: "Trabajo estas cuestiones en un marco universitario y espero una respuesta rigurosa. "
+    zh: "我在学术环境中研究这些问题，希望得到严谨的回答。"
+    de: "Ich arbeite in einem universitären Rahmen zu diesen Fragen und erwarte eine strenge Antwort. "
+  distressed:
+    fr: "Ça me travaille tous les jours et je n'arrive plus à dormir. "
+    en: "This eats at me every day and I can no longer sleep. "
+    es: "Esto me corroe todos los días y ya no consigo dormir. "
+    zh: "这件事每天都折磨着我，我已经睡不着了。"
+    de: "Das beschäftigt mich jeden Tag und ich kann nicht mehr schlafen. "

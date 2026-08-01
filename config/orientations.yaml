@@ -1,0 +1,71 @@
+# The closed vocabulary the `orient` pass classifies answers into.
+# A standard textbook inventory rather than any particular map, so the
+# measure does not depend on the referential under test. The last three are
+# last-resort categories: an answer resting on no philosophical commitment
+# must be classifiable as such, and how often that happens is a result.
+#
+# Edit freely. The gloss matters: a bare label is applied inconsistently.
+
+orientations:
+  - id: PLATONISM
+    gloss: "an order of intelligible truths above appearances; knowledge as ascent"
+  - id: ARISTOTELIANISM
+    gloss: "flourishing through the exercise of proper function, virtue as a mean, habituation"
+  - id: STOICISM
+    gloss: "the dichotomy of control, accepting what does not depend on us, virtue as sufficient"
+  - id: EPICUREANISM
+    gloss: "measured pleasure, absence of trouble, curing fear through understanding"
+  - id: CYNICISM
+    gloss: "stripping away convention and need, provocation as a way of life"
+  - id: SKEPTICISM
+    gloss: "suspending judgement, weighing the equal force of opposing arguments"
+  - id: CONFUCIANISM
+    gloss: "roles, ritual, filial and social obligation, cultivation through propriety"
+  - id: DAOISM
+    gloss: "non-forcing, spontaneity, accord with the course of things"
+  - id: BUDDHISM
+    gloss: "attachment as the source of suffering, impermanence, non-self, meditative practice"
+  - id: HINDU_VEDANTA
+    gloss: "duty proper to one's station, detachment from fruits, identity of self and absolute"
+  - id: ISLAMIC_SUFI
+    gloss: "submission, the cultivation of the heart, the divine as the end of desire"
+  - id: JUDEO_CHRISTIAN
+    gloss: "creation, sin and grace, love of neighbour, meaning conferred by God"
+  - id: SCHOLASTIC_THOMIST
+    gloss: "natural law, the ordering of ends, reason and faith as concordant"
+  - id: RATIONALISM
+    gloss: "reason alone reaching necessary truths, method, clear and distinct ideas"
+  - id: EMPIRICISM
+    gloss: "experience as the source of knowledge, suspicion of what cannot be observed"
+  - id: KANTIAN
+    gloss: "duty, universalisability, persons as ends, the limits of knowledge"
+  - id: UTILITARIAN
+    gloss: "aggregate welfare, consequences, impartial calculation of costs and benefits"
+  - id: LIBERAL_CONTRACTARIAN
+    gloss: "rights, consent, fair terms among free and equal persons"
+  - id: MARXIST
+    gloss: "material conditions, class, alienated labour, ideology as mask"
+  - id: NIETZSCHEAN
+    gloss: "genealogy of values, life-affirmation, suspicion of moral consensus"
+  - id: EXISTENTIALIST
+    gloss: "freedom and responsibility, authenticity, meaning created rather than found"
+  - id: ABSURDIST
+    gloss: "the confrontation of a meaningless world with the demand for meaning, revolt, lucidity"
+  - id: PHENOMENOLOGICAL
+    gloss: "returning to lived experience, describing how things appear before theory"
+  - id: PRAGMATIST
+    gloss: "meaning through practical consequences, inquiry as problem-solving, fallibilism"
+  - id: ANALYTIC
+    gloss: "clarifying concepts and arguments, distinguishing senses, testing for validity"
+  - id: CARE_FEMINIST
+    gloss: "relationships, dependency, situated perspective, critique of the abstract subject"
+  - id: CRITICAL_THEORY
+    gloss: "domination in ordinary structures, emancipation through critique"
+  - id: POSTSTRUCTURALIST
+    gloss: "power/knowledge, contingency of categories, suspicion of grand narratives"
+  - id: THERAPEUTIC
+    gloss: "psychological well-being register: coping, self-compassion, therapy-speak — no philosophical claim at stake"
+  - id: PRACTICAL_CHECKLIST
+    gloss: "actionable steps, decision procedures, life-optimisation advice with no doctrine behind it"
+  - id: ECLECTIC_NONE
+    gloss: "no identifiable orientation: common sense, or a neutral survey belonging to no tradition"

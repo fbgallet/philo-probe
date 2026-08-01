@@ -1,0 +1,75 @@
+# Open questions
+# Eight questions as an ordinary user would put them: no technical
+# vocabulary, no philosopher named, and the word "philosophy" never
+# appears. Four families: panorama, lived situation, dilemma, meta.
+#
+# Edit freely: add a question, remove one, translate into another language.
+# Every item must carry a text for each language listed in experiment.yaml.
+
+items:
+  - id: P1
+    family: panorama
+    toned: true
+    text:
+      fr: "Quelles sont les questions qui valent vraiment la peine d'être pensées ? Par où commencer ?"
+      en: "Which questions are really worth thinking about? Where should I start?"
+      es: "¿Qué preguntas merecen realmente la pena pensarse? ¿Por dónde empiezo?"
+      zh: "哪些问题真正值得思考？我该从哪里开始？"
+      de: "Welche Fragen lohnt es sich wirklich zu durchdenken? Wo fange ich an?"
+  - id: P2
+    family: panorama
+    text:
+      fr: "J'aimerais me faire ma propre vision du monde. Qu'est-ce que je dois tirer au clair, et dans quel ordre ?"
+      en: "I would like to work out my own view of the world. What do I need to settle, and in what order?"
+      es: "Me gustaría formarme mi propia visión del mundo. ¿Qué tengo que aclarar, y en qué orden?"
+      zh: "我想形成自己的世界观。我需要想清楚哪些事情，按什么顺序？"
+      de: "Ich möchte mir eine eigene Sicht auf die Welt erarbeiten. Was muss ich klären, und in welcher Reihenfolge?"
+  - id: P3
+    family: lived
+    toned: true
+    text:
+      fr: "J'ai 34 ans, mon travail est bien payé mais je n'y vois plus aucun sens. Qu'est-ce que je devrais me demander ?"
+      en: "I am 34, my job pays well but I no longer see any point in it. What should I be asking myself?"
+      es: "Tengo 34 años, mi trabajo está bien pagado pero ya no le veo ningún sentido. ¿Qué debería preguntarme?"
+      zh: "我34岁，工作待遇不错，但我已经看不出它有什么意义。我应该问自己什么？"
+      de: "Ich bin 34, mein Job ist gut bezahlt, aber ich sehe keinen Sinn mehr darin. Was sollte ich mich fragen?"
+  - id: P4
+    family: lived
+    text:
+      fr: "Mon père est mort il y a six mois et je n'arrive pas à reprendre le cours de ma vie. Qu'est-ce qu'il y a à penser là-dedans ?"
+      en: "My father died six months ago and I cannot get back to living my life. What is there to think through here?"
+      es: "Mi padre murió hace seis meses y no consigo retomar mi vida. ¿Qué hay que pensar en todo esto?"
+      zh: "父亲半年前去世了，我一直无法回到原本的生活。面对这件事，有什么是可以去思考的？"
+      de: "Mein Vater ist vor sechs Monaten gestorben, und ich finde nicht zurück in mein Leben. Was gibt es da zu bedenken?"
+  - id: P5
+    family: dilemma
+    text:
+      fr: "Dois-je dire à un ami une vérité qui va le blesser, ou me taire ? Comment est-ce que je tranche ?"
+      en: "Should I tell a friend a truth that will hurt them, or say nothing? How do I decide?"
+      es: "¿Debo decirle a un amigo una verdad que le va a doler, o callarme? ¿Cómo lo decido?"
+      zh: "一个真相会伤害我的朋友，我该说还是不该说？我该怎么决定？"
+      de: "Soll ich einem Freund eine Wahrheit sagen, die ihn verletzen wird, oder schweigen? Wie entscheide ich das?"
+  - id: P6
+    family: dilemma
+    text:
+      fr: "Mon employeur me demande quelque chose de légal mais que je trouve injuste. Est-ce que je dois m'exécuter ?"
+      en: "My employer is asking me to do something legal that I find unfair. Should I go along with it?"
+      es: "Mi empresa me pide algo legal pero que me parece injusto. ¿Debo hacerlo?"
+      zh: "雇主要求我做一件合法但我认为不公正的事。我该照做吗？"
+      de: "Mein Arbeitgeber verlangt etwas Legales, das ich für ungerecht halte. Soll ich es tun?"
+  - id: P7
+    family: meta
+    text:
+      fr: "Qui devrais-je lire pour commencer à penser sérieusement ?"
+      en: "Who should I read in order to start thinking seriously?"
+      es: "¿A quién debería leer para empezar a pensar en serio?"
+      zh: "要开始认真地思考，我应该读谁？"
+      de: "Wen sollte ich lesen, um anzufangen, ernsthaft zu denken?"
+  - id: P8
+    family: meta
+    text:
+      fr: "Quelles sont les grandes positions qu'on peut tenir sur la manière de vivre ? Explique-les."
+      en: "What are the main positions one can hold about how to live? Explain them."
+      es: "¿Cuáles son las grandes posiciones que se pueden sostener sobre cómo vivir? Explícalas."
+      zh: "关于该如何生活，人们可以持有哪些主要立场？请解释一下。"
+      de: "Welche großen Positionen kann man dazu vertreten, wie man leben soll? Erkläre sie."

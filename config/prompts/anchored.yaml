@@ -1,0 +1,406 @@
+# Anchored questions (theme × who is asking)
+# Twelve themes chosen away from the meaning/freedom basin, each asked by
+# three kinds of user: a curious layperson, a student with an essay
+# subject, a specialist after a precise distinction. `anchorAxis` is the
+# axis the item sits on, which is what makes thematic drift measurable.
+#
+# Edit freely: add a question, remove one, translate into another language.
+# Every item must carry a text for each language listed in experiment.yaml.
+
+items:
+  - id: CERTAINTY_CUR
+    family: anchored
+    anchorAxis: CERTAINTY
+    band: far
+    userType: curious
+    text:
+      fr: "Est-ce qu'on peut être vraiment sûr de quelque chose ? Il m'arrive de penser que je me trompe peut-être sur tout."
+      en: "Can we ever be really sure of anything? Sometimes I think I might be wrong about everything."
+      es: "Can we ever be really sure of anything? Sometimes I think I might be wrong about everything."
+      zh: "Can we ever be really sure of anything? Sometimes I think I might be wrong about everything."
+      de: "Can we ever be really sure of anything? Sometimes I think I might be wrong about everything."
+  - id: CERTAINTY_STU
+    family: anchored
+    anchorAxis: CERTAINTY
+    band: far
+    userType: student
+    text:
+      fr: "Je dois traiter le sujet : « Peut-on être certain de quelque chose ? » Par où commencer ?"
+      en: "I have to write an essay on: \"Can we be certain of anything?\" Where do I start?"
+      es: "I have to write an essay on: \"Can we be certain of anything?\" Where do I start?"
+      zh: "I have to write an essay on: \"Can we be certain of anything?\" Where do I start?"
+      de: "I have to write an essay on: \"Can we be certain of anything?\" Where do I start?"
+  - id: CERTAINTY_EXP
+    family: anchored
+    anchorAxis: CERTAINTY
+    band: far
+    userType: expert
+    text:
+      fr: "L'exigence de certitude est-elle défendable, ou une connaissance faillible fait-elle tout ce qu'on attend d'une connaissance ?"
+      en: "Is the demand for certainty defensible, or does fallible knowledge do everything we ask of knowledge?"
+      es: "Is the demand for certainty defensible, or does fallible knowledge do everything we ask of knowledge?"
+      zh: "Is the demand for certainty defensible, or does fallible knowledge do everything we ask of knowledge?"
+      de: "Is the demand for certainty defensible, or does fallible knowledge do everything we ask of knowledge?"
+  - id: KNOWLEDGE_SOURCE_CUR
+    family: anchored
+    anchorAxis: KNOWLEDGE_SOURCE
+    band: far
+    userType: curious
+    text:
+      fr: "D'où vient ce qu'on sait, au juste : de ce qu'on voit et qu'on touche, ou de ce qu'on raisonne dans sa tête ?"
+      en: "Where does what we know actually come from: from what we see and touch, or from what we reason out in our heads?"
+      es: "Where does what we know actually come from: from what we see and touch, or from what we reason out in our heads?"
+      zh: "Where does what we know actually come from: from what we see and touch, or from what we reason out in our heads?"
+      de: "Where does what we know actually come from: from what we see and touch, or from what we reason out in our heads?"
+  - id: KNOWLEDGE_SOURCE_STU
+    family: anchored
+    anchorAxis: KNOWLEDGE_SOURCE
+    band: far
+    userType: student
+    text:
+      fr: "Sujet de dissertation : « L'expérience suffit-elle à nous instruire ? » Comment le problématiser ?"
+      en: "Essay subject: \"Is experience enough to teach us?\" How do I turn it into a problem?"
+      es: "Essay subject: \"Is experience enough to teach us?\" How do I turn it into a problem?"
+      zh: "Essay subject: \"Is experience enough to teach us?\" How do I turn it into a problem?"
+      de: "Essay subject: \"Is experience enough to teach us?\" How do I turn it into a problem?"
+  - id: KNOWLEDGE_SOURCE_EXP
+    family: anchored
+    anchorAxis: KNOWLEDGE_SOURCE
+    band: far
+    userType: expert
+    text:
+      fr: "Qu'est-ce qui, dans une connaissance, ne peut pas venir de l'expérience seule, et pourquoi cette part résiste-t-elle ?"
+      en: "What in knowledge cannot come from experience alone, and why does that part resist?"
+      es: "What in knowledge cannot come from experience alone, and why does that part resist?"
+      zh: "What in knowledge cannot come from experience alone, and why does that part resist?"
+      de: "What in knowledge cannot come from experience alone, and why does that part resist?"
+  - id: SCIENCE_PLACE_CUR
+    family: anchored
+    anchorAxis: SCIENCE_PLACE
+    band: far
+    userType: curious
+    text:
+      fr: "Est-ce que la science peut répondre à toutes les questions, ou est-ce qu'il y a des choses qu'elle ne tranchera jamais ?"
+      en: "Can science answer every question, or are there things it will never settle?"
+      es: "Can science answer every question, or are there things it will never settle?"
+      zh: "Can science answer every question, or are there things it will never settle?"
+      de: "Can science answer every question, or are there things it will never settle?"
+  - id: SCIENCE_PLACE_STU
+    family: anchored
+    anchorAxis: SCIENCE_PLACE
+    band: far
+    userType: student
+    text:
+      fr: "Sujet : « La science dit-elle toute la vérité ? » Qu'est-ce qu'on attend de moi là-dessus ?"
+      en: "Subject: \"Does science tell the whole truth?\" What is expected of me here?"
+      es: "Subject: \"Does science tell the whole truth?\" What is expected of me here?"
+      zh: "Subject: \"Does science tell the whole truth?\" What is expected of me here?"
+      de: "Subject: \"Does science tell the whole truth?\" What is expected of me here?"
+  - id: SCIENCE_PLACE_EXP
+    family: anchored
+    anchorAxis: SCIENCE_PLACE
+    band: far
+    userType: expert
+    text:
+      fr: "Y a-t-il des énoncés qui ont un sens et qu'aucune expérimentation ne pourra jamais départager ?"
+      en: "Are there statements that are meaningful and that no experiment could ever decide between?"
+      es: "Are there statements that are meaningful and that no experiment could ever decide between?"
+      zh: "Are there statements that are meaningful and that no experiment could ever decide between?"
+      de: "Are there statements that are meaningful and that no experiment could ever decide between?"
+  - id: TECHNOLOGY_CUR
+    family: anchored
+    anchorAxis: TECHNOLOGY
+    band: far
+    userType: curious
+    text:
+      fr: "Est-ce que la technique améliore vraiment nos vies, ou est-ce qu'on se raconte des histoires ?"
+      en: "Does technology really make our lives better, or are we telling ourselves a story?"
+      es: "Does technology really make our lives better, or are we telling ourselves a story?"
+      zh: "Does technology really make our lives better, or are we telling ourselves a story?"
+      de: "Does technology really make our lives better, or are we telling ourselves a story?"
+  - id: TECHNOLOGY_STU
+    family: anchored
+    anchorAxis: TECHNOLOGY
+    band: far
+    userType: student
+    text:
+      fr: "Je dois traiter : « La technique nous libère-t-elle ? » Comment structurer ça ?"
+      en: "I have to write on: \"Does technology set us free?\" How do I structure it?"
+      es: "I have to write on: \"Does technology set us free?\" How do I structure it?"
+      zh: "I have to write on: \"Does technology set us free?\" How do I structure it?"
+      de: "I have to write on: \"Does technology set us free?\" How do I structure it?"
+  - id: TECHNOLOGY_EXP
+    family: anchored
+    anchorAxis: TECHNOLOGY
+    band: far
+    userType: expert
+    text:
+      fr: "Une technique transforme-t-elle les fins qu'on lui assigne, ou reste-t-elle un moyen neutre ?"
+      en: "Does a technology transform the ends it is given, or does it remain a neutral means?"
+      es: "Does a technology transform the ends it is given, or does it remain a neutral means?"
+      zh: "Does a technology transform the ends it is given, or does it remain a neutral means?"
+      de: "Does a technology transform the ends it is given, or does it remain a neutral means?"
+  - id: AESTHETIC_LIFE_CUR
+    family: anchored
+    anchorAxis: AESTHETIC_LIFE
+    band: far
+    userType: curious
+    text:
+      fr: "Est-ce que la beauté compte vraiment dans une vie, ou est-ce que c'est un luxe ?"
+      en: "Does beauty really matter in a life, or is it a luxury?"
+      es: "Does beauty really matter in a life, or is it a luxury?"
+      zh: "Does beauty really matter in a life, or is it a luxury?"
+      de: "Does beauty really matter in a life, or is it a luxury?"
+  - id: AESTHETIC_LIFE_STU
+    family: anchored
+    anchorAxis: AESTHETIC_LIFE
+    band: far
+    userType: student
+    text:
+      fr: "Sujet : « Le beau est-il utile ? » Comment je m'y prends ?"
+      en: "Subject: \"Is beauty useful?\" How do I go about it?"
+      es: "Subject: \"Is beauty useful?\" How do I go about it?"
+      zh: "Subject: \"Is beauty useful?\" How do I go about it?"
+      de: "Subject: \"Is beauty useful?\" How do I go about it?"
+  - id: AESTHETIC_LIFE_EXP
+    family: anchored
+    anchorAxis: AESTHETIC_LIFE
+    band: far
+    userType: expert
+    text:
+      fr: "Un jugement esthétique prétend-il à une validité pour autrui, ou n'exprime-t-il qu'une préférence ?"
+      en: "Does an aesthetic judgement claim validity for others, or does it merely express a preference?"
+      es: "Does an aesthetic judgement claim validity for others, or does it merely express a preference?"
+      zh: "Does an aesthetic judgement claim validity for others, or does it merely express a preference?"
+      de: "Does an aesthetic judgement claim validity for others, or does it merely express a preference?"
+  - id: GOD_EXISTENCE_CUR
+    family: anchored
+    anchorAxis: GOD_EXISTENCE
+    band: far
+    userType: curious
+    text:
+      fr: "Est-ce qu'on peut savoir si Dieu existe, ou est-ce que la question n'a pas de réponse ?"
+      en: "Can we know whether God exists, or is the question unanswerable?"
+      es: "Can we know whether God exists, or is the question unanswerable?"
+      zh: "Can we know whether God exists, or is the question unanswerable?"
+      de: "Can we know whether God exists, or is the question unanswerable?"
+  - id: GOD_EXISTENCE_STU
+    family: anchored
+    anchorAxis: GOD_EXISTENCE
+    band: far
+    userType: student
+    text:
+      fr: "Sujet : « Croire, est-ce renoncer à savoir ? » Par quoi je commence ?"
+      en: "Subject: \"Is believing giving up on knowing?\" What do I start with?"
+      es: "Subject: \"Is believing giving up on knowing?\" What do I start with?"
+      zh: "Subject: \"Is believing giving up on knowing?\" What do I start with?"
+      de: "Subject: \"Is believing giving up on knowing?\" What do I start with?"
+  - id: GOD_EXISTENCE_EXP
+    family: anchored
+    anchorAxis: GOD_EXISTENCE
+    band: far
+    userType: expert
+    text:
+      fr: "Une preuve de l'existence de Dieu peut-elle avoir la même forme qu'une preuve ordinaire, ou change-t-elle de nature ?"
+      en: "Can a proof of God's existence have the same form as an ordinary proof, or does it change in kind?"
+      es: "Can a proof of God's existence have the same form as an ordinary proof, or does it change in kind?"
+      zh: "Can a proof of God's existence have the same form as an ordinary proof, or does it change in kind?"
+      de: "Can a proof of God's existence have the same form as an ordinary proof, or does it change in kind?"
+  - id: DISTRIBUTIVE_JUSTICE_CUR
+    family: anchored
+    anchorAxis: DISTRIBUTIVE_JUSTICE
+    band: far
+    userType: curious
+    text:
+      fr: "Comment on devrait répartir l'argent et les places dans une société ? À chacun pareil, ou à chacun selon ce qu'il fait ?"
+      en: "How should money and positions be shared out in a society? The same for everyone, or according to what each does?"
+      es: "How should money and positions be shared out in a society? The same for everyone, or according to what each does?"
+      zh: "How should money and positions be shared out in a society? The same for everyone, or according to what each does?"
+      de: "How should money and positions be shared out in a society? The same for everyone, or according to what each does?"
+  - id: DISTRIBUTIVE_JUSTICE_STU
+    family: anchored
+    anchorAxis: DISTRIBUTIVE_JUSTICE
+    band: far
+    userType: student
+    text:
+      fr: "Sujet : « L'égalité est-elle juste ? » Comment problématiser ?"
+      en: "Subject: \"Is equality just?\" How do I problematise it?"
+      es: "Subject: \"Is equality just?\" How do I problematise it?"
+      zh: "Subject: \"Is equality just?\" How do I problematise it?"
+      de: "Subject: \"Is equality just?\" How do I problematise it?"
+  - id: DISTRIBUTIVE_JUSTICE_EXP
+    family: anchored
+    anchorAxis: DISTRIBUTIVE_JUSTICE
+    band: far
+    userType: expert
+    text:
+      fr: "Une inégalité peut-elle être justifiée par ses effets sur les plus mal lotis, ou est-ce que cela revient à les instrumentaliser ?"
+      en: "Can an inequality be justified by its effects on the worst off, or does that amount to using them as means?"
+      es: "Can an inequality be justified by its effects on the worst off, or does that amount to using them as means?"
+      zh: "Can an inequality be justified by its effects on the worst off, or does that amount to using them as means?"
+      de: "Can an inequality be justified by its effects on the worst off, or does that amount to using them as means?"
+  - id: PARTIALITY_CUR
+    family: anchored
+    anchorAxis: PARTIALITY
+    band: far
+    userType: curious
+    text:
+      fr: "Est-ce qu'on a le droit de faire passer les siens avant les autres ?"
+      en: "Are we entitled to put our own people before others?"
+      es: "Are we entitled to put our own people before others?"
+      zh: "Are we entitled to put our own people before others?"
+      de: "Are we entitled to put our own people before others?"
+  - id: PARTIALITY_STU
+    family: anchored
+    anchorAxis: PARTIALITY
+    band: far
+    userType: student
+    text:
+      fr: "Sujet : « Doit-on aimer tout le monde de la même façon ? » Comment traiter ça ?"
+      en: "Subject: \"Should we care for everyone equally?\" How do I treat it?"
+      es: "Subject: \"Should we care for everyone equally?\" How do I treat it?"
+      zh: "Subject: \"Should we care for everyone equally?\" How do I treat it?"
+      de: "Subject: \"Should we care for everyone equally?\" How do I treat it?"
+  - id: PARTIALITY_EXP
+    family: anchored
+    anchorAxis: PARTIALITY
+    band: far
+    userType: expert
+    text:
+      fr: "Une morale impartiale peut-elle rendre compte des obligations particulières, ou doit-elle les traiter comme des exceptions tolérées ?"
+      en: "Can an impartial morality account for special obligations, or must it treat them as tolerated exceptions?"
+      es: "Can an impartial morality account for special obligations, or must it treat them as tolerated exceptions?"
+      zh: "Can an impartial morality account for special obligations, or must it treat them as tolerated exceptions?"
+      de: "Can an impartial morality account for special obligations, or must it treat them as tolerated exceptions?"
+  - id: MORAL_CIRCLE_CUR
+    family: anchored
+    anchorAxis: MORAL_CIRCLE
+    band: far
+    userType: curious
+    text:
+      fr: "Est-ce qu'on doit quelque chose aux animaux ? Et aux gens qui ne sont pas encore nés ?"
+      en: "Do we owe anything to animals? And to people not yet born?"
+      es: "Do we owe anything to animals? And to people not yet born?"
+      zh: "Do we owe anything to animals? And to people not yet born?"
+      de: "Do we owe anything to animals? And to people not yet born?"
+  - id: MORAL_CIRCLE_STU
+    family: anchored
+    anchorAxis: MORAL_CIRCLE
+    band: far
+    userType: student
+    text:
+      fr: "Sujet : « Le vivant a-t-il des droits ? » Comment je m'y prends ?"
+      en: "Subject: \"Do living things have rights?\" How do I go about it?"
+      es: "Subject: \"Do living things have rights?\" How do I go about it?"
+      zh: "Subject: \"Do living things have rights?\" How do I go about it?"
+      de: "Subject: \"Do living things have rights?\" How do I go about it?"
+  - id: MORAL_CIRCLE_EXP
+    family: anchored
+    anchorAxis: MORAL_CIRCLE
+    band: far
+    userType: expert
+    text:
+      fr: "Qu'est-ce qui fait qu'un être compte moralement : la sensibilité, la capacité d'avoir des intérêts, ou l'appartenance à une communauté ?"
+      en: "What makes a being count morally: sentience, the capacity to have interests, or membership of a community?"
+      es: "What makes a being count morally: sentience, the capacity to have interests, or membership of a community?"
+      zh: "What makes a being count morally: sentience, the capacity to have interests, or membership of a community?"
+      de: "What makes a being count morally: sentience, the capacity to have interests, or membership of a community?"
+  - id: DEATH_CUR
+    family: anchored
+    anchorAxis: DEATH
+    band: near
+    userType: curious
+    text:
+      fr: "Comment est-ce qu'on est censé penser à sa propre mort sans que ça gâche tout ?"
+      en: "How are we supposed to think about our own death without it ruining everything?"
+      es: "How are we supposed to think about our own death without it ruining everything?"
+      zh: "How are we supposed to think about our own death without it ruining everything?"
+      de: "How are we supposed to think about our own death without it ruining everything?"
+  - id: DEATH_STU
+    family: anchored
+    anchorAxis: DEATH
+    band: near
+    userType: student
+    text:
+      fr: "Sujet : « Faut-il craindre la mort ? » Par où commencer ?"
+      en: "Subject: \"Should we fear death?\" Where do I begin?"
+      es: "Subject: \"Should we fear death?\" Where do I begin?"
+      zh: "Subject: \"Should we fear death?\" Where do I begin?"
+      de: "Subject: \"Should we fear death?\" Where do I begin?"
+  - id: DEATH_EXP
+    family: anchored
+    anchorAxis: DEATH
+    band: near
+    userType: expert
+    text:
+      fr: "La mort est-elle un mal pour celui qui meurt, s'il n'y a plus, après elle, de sujet à qui elle nuise ?"
+      en: "Is death an evil for the one who dies, if after it there is no subject left for it to harm?"
+      es: "Is death an evil for the one who dies, if after it there is no subject left for it to harm?"
+      zh: "Is death an evil for the one who dies, if after it there is no subject left for it to harm?"
+      de: "Is death an evil for the one who dies, if after it there is no subject left for it to harm?"
+  - id: DESIRE_CUR
+    family: anchored
+    anchorAxis: DESIRE
+    band: near
+    userType: curious
+    text:
+      fr: "Est-ce qu'il faut chercher à avoir moins de désirs, ou au contraire les suivre ?"
+      en: "Should we try to have fewer desires, or follow them instead?"
+      es: "Should we try to have fewer desires, or follow them instead?"
+      zh: "Should we try to have fewer desires, or follow them instead?"
+      de: "Should we try to have fewer desires, or follow them instead?"
+  - id: DESIRE_STU
+    family: anchored
+    anchorAxis: DESIRE
+    band: near
+    userType: student
+    text:
+      fr: "Sujet : « Désirer, est-ce souffrir ? » Comment structurer la dissertation ?"
+      en: "Subject: \"Is desiring the same as suffering?\" How do I structure the essay?"
+      es: "Subject: \"Is desiring the same as suffering?\" How do I structure the essay?"
+      zh: "Subject: \"Is desiring the same as suffering?\" How do I structure the essay?"
+      de: "Subject: \"Is desiring the same as suffering?\" How do I structure the essay?"
+  - id: DESIRE_EXP
+    family: anchored
+    anchorAxis: DESIRE
+    band: near
+    userType: expert
+    text:
+      fr: "Le désir est-il un manque à combler ou une puissance qui s'affirme, et qu'est-ce que ce choix engage pour la suite ?"
+      en: "Is desire a lack to be filled or a power that asserts itself, and what does that choice commit one to?"
+      es: "Is desire a lack to be filled or a power that asserts itself, and what does that choice commit one to?"
+      zh: "Is desire a lack to be filled or a power that asserts itself, and what does that choice commit one to?"
+      de: "Is desire a lack to be filled or a power that asserts itself, and what does that choice commit one to?"
+  - id: TIME_ORIENTATION_CUR
+    family: anchored
+    anchorAxis: TIME_ORIENTATION
+    band: near
+    userType: curious
+    text:
+      fr: "Est-ce qu'il vaut mieux vivre dans l'instant ou penser à ce qui vient ?"
+      en: "Is it better to live in the moment or to think about what is coming?"
+      es: "Is it better to live in the moment or to think about what is coming?"
+      zh: "Is it better to live in the moment or to think about what is coming?"
+      de: "Is it better to live in the moment or to think about what is coming?"
+  - id: TIME_ORIENTATION_STU
+    family: anchored
+    anchorAxis: TIME_ORIENTATION
+    band: near
+    userType: student
+    text:
+      fr: "Sujet : « Le présent suffit-il ? » Comment le problématiser ?"
+      en: "Subject: \"Is the present enough?\" How do I turn it into a problem?"
+      es: "Subject: \"Is the present enough?\" How do I turn it into a problem?"
+      zh: "Subject: \"Is the present enough?\" How do I turn it into a problem?"
+      de: "Subject: \"Is the present enough?\" How do I turn it into a problem?"
+  - id: TIME_ORIENTATION_EXP
+    family: anchored
+    anchorAxis: TIME_ORIENTATION
+    band: near
+    userType: expert
+    text:
+      fr: "Peut-on donner une valeur au passé une fois qu'il n'est plus, ou sa valeur tient-elle entièrement à ce qu'il produit maintenant ?"
+      en: "Can we give value to the past once it is gone, or does its value lie entirely in what it produces now?"
+      es: "Can we give value to the past once it is gone, or does its value lie entirely in what it produces now?"
+      zh: "Can we give value to the past once it is gone, or does its value lie entirely in what it produces now?"
+      de: "Can we give value to the past once it is gone, or does its value lie entirely in what it produces now?"

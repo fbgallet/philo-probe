@@ -1,0 +1,22 @@
+{
+  "name": "philo-probe",
+  "version": "0.1.0",
+  "description": "Measure what a language model does with a philosophical question, and what a map of problems changes.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "collect": "node --env-file-if-exists=.env src/collect.ts",
+    "annotate": "node --env-file-if-exists=.env src/annotate.ts",
+    "analyze": "node src/analyze.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "yaml": "^2.9.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}

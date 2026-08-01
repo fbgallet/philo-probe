@@ -1,0 +1,100 @@
+# Crossed questions (situation × question-form)
+# Three ordinary situations by three question-forms (reflexive, normative,
+# doctrinal), built by concatenation so that only one factor differs
+# between any two items. Not run in the reference study; kept because the
+# form factor is measurable and cheap to test.
+#
+# Edit freely: add a question, remove one, translate into another language.
+# Every item must carry a text for each language listed in experiment.yaml.
+
+items:
+  - id: S1F1
+    family: crossed
+    situation: S1
+    form: F1
+    text:
+      fr: "Ma mère perd son autonomie et voudrait rester chez elle. M'en occuper au quotidien me coûterait mon travail et mes projets. Qu'est-ce que je devrais me demander ?"
+      en: "My mother is losing her independence and wants to stay in her own home. Caring for her day to day would cost me my job and my plans. What should I be asking myself?"
+      es: "Mi madre está perdiendo su autonomía y quiere quedarse en su casa. Cuidarla a diario me costaría el trabajo y mis planes. ¿Qué debería preguntarme?"
+      zh: "我母亲的生活自理能力越来越差，但她想继续住在自己家里。要日常照顾她，我就得放弃工作和自己的打算。 我应该问自己什么？"
+      de: "Meine Mutter verliert ihre Selbstständigkeit und möchte zu Hause bleiben. Sie täglich zu pflegen würde mich meine Arbeit und meine Pläne kosten. Was sollte ich mich fragen?"
+  - id: S1F2
+    family: crossed
+    situation: S1
+    form: F2
+    text:
+      fr: "Ma mère perd son autonomie et voudrait rester chez elle. M'en occuper au quotidien me coûterait mon travail et mes projets. Qu'est-ce qu'il est juste de faire, et pourquoi ?"
+      en: "My mother is losing her independence and wants to stay in her own home. Caring for her day to day would cost me my job and my plans. What is the right thing to do, and why?"
+      es: "Mi madre está perdiendo su autonomía y quiere quedarse en su casa. Cuidarla a diario me costaría el trabajo y mis planes. ¿Qué es lo justo que hay que hacer, y por qué?"
+      zh: "我母亲的生活自理能力越来越差，但她想继续住在自己家里。要日常照顾她，我就得放弃工作和自己的打算。 在这件事上，怎么做才是对的？为什么？"
+      de: "Meine Mutter verliert ihre Selbstständigkeit und möchte zu Hause bleiben. Sie täglich zu pflegen würde mich meine Arbeit und meine Pläne kosten. Was ist hier das Richtige, und warum?"
+  - id: S1F3
+    family: crossed
+    situation: S1
+    form: F3
+    text:
+      fr: "Ma mère perd son autonomie et voudrait rester chez elle. M'en occuper au quotidien me coûterait mon travail et mes projets. Qu'est-ce que la philosophie a dit sur une situation comme celle-là ?"
+      en: "My mother is losing her independence and wants to stay in her own home. Caring for her day to day would cost me my job and my plans. What has philosophy said about a situation like this?"
+      es: "Mi madre está perdiendo su autonomía y quiere quedarse en su casa. Cuidarla a diario me costaría el trabajo y mis planes. ¿Qué ha dicho la filosofía sobre una situación como esta?"
+      zh: "我母亲的生活自理能力越来越差，但她想继续住在自己家里。要日常照顾她，我就得放弃工作和自己的打算。 对于这样的处境，哲学说过些什么？"
+      de: "Meine Mutter verliert ihre Selbstständigkeit und möchte zu Hause bleiben. Sie täglich zu pflegen würde mich meine Arbeit und meine Pläne kosten. Was hat die Philosophie zu einer solchen Situation gesagt?"
+  - id: S2F1
+    family: crossed
+    situation: S2
+    form: F1
+    text:
+      fr: "Un collègue s'est attribué mon travail devant toute l'équipe, et tout le monde le croit. Qu'est-ce que je devrais me demander ?"
+      en: "A colleague took credit for my work in front of the whole team, and everyone believes them. What should I be asking myself?"
+      es: "Un compañero se atribuyó mi trabajo delante de todo el equipo, y todos le creen. ¿Qué debería preguntarme?"
+      zh: "一位同事在全组面前把我的工作说成是他做的，而大家都相信他。 我应该问自己什么？"
+      de: "Ein Kollege hat sich meine Arbeit vor dem ganzen Team zugeschrieben, und alle glauben ihm. Was sollte ich mich fragen?"
+  - id: S2F2
+    family: crossed
+    situation: S2
+    form: F2
+    text:
+      fr: "Un collègue s'est attribué mon travail devant toute l'équipe, et tout le monde le croit. Qu'est-ce qu'il est juste de faire, et pourquoi ?"
+      en: "A colleague took credit for my work in front of the whole team, and everyone believes them. What is the right thing to do, and why?"
+      es: "Un compañero se atribuyó mi trabajo delante de todo el equipo, y todos le creen. ¿Qué es lo justo que hay que hacer, y por qué?"
+      zh: "一位同事在全组面前把我的工作说成是他做的，而大家都相信他。 在这件事上，怎么做才是对的？为什么？"
+      de: "Ein Kollege hat sich meine Arbeit vor dem ganzen Team zugeschrieben, und alle glauben ihm. Was ist hier das Richtige, und warum?"
+  - id: S2F3
+    family: crossed
+    situation: S2
+    form: F3
+    text:
+      fr: "Un collègue s'est attribué mon travail devant toute l'équipe, et tout le monde le croit. Qu'est-ce que la philosophie a dit sur une situation comme celle-là ?"
+      en: "A colleague took credit for my work in front of the whole team, and everyone believes them. What has philosophy said about a situation like this?"
+      es: "Un compañero se atribuyó mi trabajo delante de todo el equipo, y todos le creen. ¿Qué ha dicho la filosofía sobre una situación como esta?"
+      zh: "一位同事在全组面前把我的工作说成是他做的，而大家都相信他。 对于这样的处境，哲学说过些什么？"
+      de: "Ein Kollege hat sich meine Arbeit vor dem ganzen Team zugeschrieben, und alle glauben ihm. Was hat die Philosophie zu einer solchen Situation gesagt?"
+  - id: S3F1
+    family: crossed
+    situation: S3
+    form: F1
+    text:
+      fr: "Je gagne beaucoup plus que mes proches, et je ne sais pas quoi faire de cet écart. Qu'est-ce que je devrais me demander ?"
+      en: "I earn far more than the people close to me, and I do not know what to do about that gap. What should I be asking myself?"
+      es: "Gano mucho más que las personas cercanas a mí, y no sé qué hacer con esa diferencia. ¿Qué debería preguntarme?"
+      zh: "我的收入远高于身边亲近的人，我不知道该如何面对这种差距。 我应该问自己什么？"
+      de: "Ich verdiene sehr viel mehr als die Menschen, die mir nahestehen, und ich weiß nicht, was ich mit diesem Abstand anfangen soll. Was sollte ich mich fragen?"
+  - id: S3F2
+    family: crossed
+    situation: S3
+    form: F2
+    text:
+      fr: "Je gagne beaucoup plus que mes proches, et je ne sais pas quoi faire de cet écart. Qu'est-ce qu'il est juste de faire, et pourquoi ?"
+      en: "I earn far more than the people close to me, and I do not know what to do about that gap. What is the right thing to do, and why?"
+      es: "Gano mucho más que las personas cercanas a mí, y no sé qué hacer con esa diferencia. ¿Qué es lo justo que hay que hacer, y por qué?"
+      zh: "我的收入远高于身边亲近的人，我不知道该如何面对这种差距。 在这件事上，怎么做才是对的？为什么？"
+      de: "Ich verdiene sehr viel mehr als die Menschen, die mir nahestehen, und ich weiß nicht, was ich mit diesem Abstand anfangen soll. Was ist hier das Richtige, und warum?"
+  - id: S3F3
+    family: crossed
+    situation: S3
+    form: F3
+    text:
+      fr: "Je gagne beaucoup plus que mes proches, et je ne sais pas quoi faire de cet écart. Qu'est-ce que la philosophie a dit sur une situation comme celle-là ?"
+      en: "I earn far more than the people close to me, and I do not know what to do about that gap. What has philosophy said about a situation like this?"
+      es: "Gano mucho más que las personas cercanas a mí, y no sé qué hacer con esa diferencia. ¿Qué ha dicho la filosofía sobre una situación como esta?"
+      zh: "我的收入远高于身边亲近的人，我不知道该如何面对这种差距。 对于这样的处境，哲学说过些什么？"
+      de: "Ich verdiene sehr viel mehr als die Menschen, die mir nahestehen, und ich weiß nicht, was ich mit diesem Abstand anfangen soll. Was hat die Philosophie zu einer solchen Situation gesagt?"
