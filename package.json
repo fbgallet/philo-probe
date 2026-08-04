@@ -4,12 +4,15 @@
   "description": "Measure what a language model does with a philosophical question, and what a map of problems changes.",
   "license": "MIT",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "collect": "node --env-file-if-exists=.env src/collect.ts",
     "annotate": "node --env-file-if-exists=.env src/annotate.ts",
     "analyze": "node src/analyze.ts",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "charts": "node src/charts.ts"
   },
   "dependencies": {
     "yaml": "^2.9.0",

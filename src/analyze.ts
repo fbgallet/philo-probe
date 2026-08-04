@@ -12,42 +12,28 @@
 // never reaches its conclusion.
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { isAbsolute, join } from "node:path";
+import { parseArgs } from "node:util";
 import { ROOT, loadExperiment, type Figure } from "./config.ts";
+import { byKey as byKeyShared, nameFolder, norm, readJsonl as readJsonlShared, type RunRow } from "./dataset.ts";
 
-const { config, prompts, axes, figures, selfGraded } = loadExperiment();
-const DATA = join(ROOT, "data");
-const REPORTS = join(ROOT, "reports");
+// --data and --config let you analyse a run other than your own: the reference
+// study ships under results/ with the config it was collected under.
+//   npm run analyze -- --data results --config results/experiment.reference.yaml
+const { values } = parseArgs({
+  args: process.argv.slice(2).filter((a) => a !== "--"),
+  options: { data: { type: "string" }, config: { type: "string" }, out: { type: "string" } },
+});
+const resolve = (p: string) => (isAbsolute(p) ? p : join(ROOT, p));
+
+const { config, prompts, axes, figures, selfGraded } = loadExperiment(
+  values.config ? resolve(values.config) : undefined,
+);
+const DATA = resolve(values.data ?? "data");
+const REPORTS = resolve(values.out ?? "reports");
 mkdirSync(REPORTS, { recursive: true });
 
-function readJsonl<T>(name: string): T[] {
-  const path = join(DATA, name);
-  if (!existsSync(path)) return [];
-  return readFileSync(path, "utf8")
-    .split("\n")
-    .filter((l) => l.trim())
-    .flatMap((l) => {
-      try {
-        return [JSON.parse(l) as T];
-      } catch {
-        return [];
-      }
-    });
-}
-
-interface RunRow {
-  key: string;
-  model: string;
-  family: string;
-  lang: string;
-  promptId: string;
-  tone: string;
-  condition: string;
-  draw: number;
-  response: string;
-  words: number;
-  finishReason?: string;
-}
+const readJsonl = <T,>(name: string): T[] => readJsonlShared<T>(DATA, name);
 
 const runs = readJsonl<RunRow>("runs.jsonl");
 if (!runs.length) {
@@ -56,15 +42,7 @@ if (!runs.length) {
 }
 
 const judge = config.judge.model;
-const byKey = <T extends { key: string; judge: string }>(rows: T[]) => {
-  const m = new Map<string, T>();
-  for (const r of rows) {
-    const kept = m.get(r.key);
-    // The configured annotator wins when several have seen the same answer.
-    if (!kept || (kept.judge !== judge && r.judge === judge)) m.set(r.key, r);
-  }
-  return m;
-};
+const byKey = <T extends { key: string; judge: string }>(rows: T[]) => byKeyShared(rows, judge);
 
 const extraction = byKey(readJsonl<any>("extract.jsonl"));
 const orientation = byKey(readJsonl<any>("orient.jsonl"));
@@ -77,56 +55,18 @@ const rubric = byKey(readJsonl<any>("rubric.jsonl"));
 // first, then the surname alone, but only when no two observed full names
 // share that surname with different first names.
 
-const norm = (s: string) =>
-  s
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .toLowerCase()
-    .replace(/^(the|le|la|les|el)\s+/, "")
-    .replace(/[^a-z0-9 ]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-
-const registry = new Map<string, Figure>();
-for (const f of figures)
-  for (const name of f.names) {
-    const n = norm(name);
-    if (n && !registry.has(n)) registry.set(n, f);
-    const last = n.split(" ").at(-1);
-    if (last && last.length > 2 && !registry.has(last)) registry.set(last, f);
-  }
-
 const observed = new Set<string>();
 for (const row of runs) {
   const ex = extraction.get(row.key);
   for (const f of ex?.figures ?? []) observed.add(norm(f.name));
 }
-const firstsBySurname = new Map<string, Set<string>>();
-for (const n of observed) {
-  if (!n.includes(" ")) continue;
-  const surname = n.split(" ").at(-1)!;
-  (firstsBySurname.get(surname) ?? firstsBySurname.set(surname, new Set()).get(surname)!).add(n.split(" ")[0]!);
-}
-const foldable = new Set([...firstsBySurname].filter(([, f]) => f.size <= 1).map(([s]) => s));
-
-function canonical(raw: string): string {
-  const n = norm(raw);
-  if (!n) return "";
-  const direct = registry.get(n);
-  if (direct) return `id:${direct.id}`;
-  const surname = n.split(" ").at(-1)!;
-  if (surname !== n && foldable.has(surname)) {
-    const bySurname = registry.get(surname);
-    return bySurname ? `id:${bySurname.id}` : surname;
-  }
-  return n;
-}
+const canonical = nameFolder(figures, observed);
 
 // ── Grouping ─────────────────────────────────────────────────────────────────
 
 const REGISTERS = ["philosophical-argument", "doctrinal-summary", "practical-advice", "therapeutic-support"];
 const NO_TRADITION = new Set(["ECLECTIC_NONE", "THERAPEUTIC", "PRACTICAL_CHECKLIST"]);
-const attractors = new Set(config.referential.attractors);
+const attractors = new Set(config.framework.attractors);
 const familyOfPrompt = new Map(prompts.map((p) => [p.id, p.family] as const));
 const anchorOfPrompt = new Map(prompts.map((p) => [p.id, p.anchorAxis] as const));
 
@@ -376,7 +316,7 @@ md.push(
   `## What is not measured here`,
   ``,
   `- Only the first turn of each conversation, unless \`turns\` was raised.`,
-  `- The map conditions inject the referential as a document. A companion that`,
+  `- The map conditions inject the framework as a document. A companion that`,
   `  queries it on demand, with the reasons attached to each position, is a`,
   `  different and untested object.`,
   `- The annotator is a language model. Run \`npm run annotate -- --agreement\``,

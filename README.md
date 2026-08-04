@@ -1,13 +1,18 @@
 # philo-probe
 
 **What does a language model actually do when you bring it a philosophical
-question?** This is the harness behind [*Une IA peut-elle être un compagnon
-philosophique ?*](https://philoscopia.com/blog) — run it yourself, against the
-models you use, with your own questions.
+question?** This is the harness behind a study of six mainstream models in five
+languages — run it yourself, against the models you use, with your own
+questions.
+
+The write-up is not published yet; when it is, it will be linked here (English
+by default, with a French version). Until then the protocol is in
+[PROTOCOL.md](PROTOCOL.md) and the study's own data, with the report generated
+from it, is in [results/](results/).
 
 It measures four things on every answer:
 
-- **the register** — does it argue, report doctrines, give advice, or comfort?
+- **the dominant mode** — does it argue, report doctrines, give advice, or comfort?
 - **the questions it raises** — are they philosophical problems, or prompts for
   introspection (« what do I really want? »)?
 - **the authors** — who is named, and whether they are name-dropped or actually
@@ -36,6 +41,13 @@ npm run analyze                # reports/report.md + CSVs
 Everything is resumable. Interrupt any step and re-run it: answers are keyed by
 cell and appended to `data/*.jsonl`, so nothing is collected or annotated twice.
 
+Nothing to spend yet? The published study's 4 632 answers are in
+[results/](results/), and one command re-analyses them without an API key:
+
+```bash
+npm run analyze -- --data results --config results/experiment.reference.yaml --out results
+```
+
 ## Audit your own assistant
 
 Cut `panel` in `config/experiment.yaml` down to the model you actually talk to:
@@ -47,7 +59,7 @@ languages: [en]
 ```
 
 You lose the comparison between labs, but everything else holds: the register,
-the share of introspection, the drift, the problematisation score. Around
+the share of introspection, the drift, the problem framing score. Around
 $1 for a few hundred answers. It answers a question worth asking — *what does
 the assistant I use every day do with a question of mine?*
 
@@ -61,7 +73,7 @@ the assistant I use every day do with a question of mine?*
 | the conditions, and the block each one appends | `config/experiment.yaml` |
 | what the annotator is asked | `config/annotation/*.md` |
 | the orientation vocabulary | `config/orientations.yaml` |
-| the map used by the payload conditions | `config/referential/axes.json` |
+| the framework used by the payload conditions | `config/framework/axes.json` |
 
 Nothing in `src/` needs touching for any of that.
 
@@ -71,6 +83,20 @@ dropping a cell. Adding a language means adding it to `languages` and
 translating every item — write it natively rather than translating word for
 word, then check it back (the reference study caught one Chinese item that
 presupposed its own answer).
+
+## The battery that can prove something
+
+`crossed` is the only battery here built as a minimal-pair design: three
+situations by three question-forms, where the situation is reproduced word for
+word across forms, so that between two items exactly one factor ever varies.
+
+It is worth running even when it is not what you came for. In the reference
+study, the first interpretation of the headline result — that the *form* of the
+request decides what a model does — survived four batteries and fell to this
+one in a single afternoon: at constant situation, no form of the question
+obtained more than 1 % reasoning. Everything else in this repository measures
+correlations between questions that differ in many ways at once; this battery is
+the one that isolates a cause.
 
 ## Multi-turn
 
@@ -101,16 +127,31 @@ the data until we looked. `analyze` now says so at the top of the report.
 to a common number of answers, because a group with four times more answers
 trivially names more authors.
 
-Measure your annotator too:
+**Measure your annotator, and do not trust it by default.**
 
 ```bash
 npm run annotate -- --agreement    # re-annotates a sample with judge.second
 ```
 
 It reports how far two annotators agree on the authors extracted, the dominant
-orientation and the register. Publish those numbers with your results.
+orientation and the mode. Publish those numbers with your results.
 Disagreement on authors is measurement error; disagreement on orientation is
 interpretation, and a reader is entitled to see how much of it there is.
+
+This matters more than it sounds. In the reference study, a blind re-judging of
+sixty mentions by two independent annotators showed the one we used confirming
+only half of its own `argument-used` labels, inventing about 3 % of the authors
+it reported, and breaking one of its own instructions in 10 % of answers
+(`results/role-audit.jsonl`). None of it changed the conclusions, and all of it
+happened to push against them — but we found out afterwards, by checking. Two
+things follow for anyone running this:
+
+- **Set `judge.effort`.** The reference study left it unset, so every annotation
+  ran at the provider's default effort on a task that is entirely interpretive.
+  `effort: high` is now the shipped default. Whether it actually helps is
+  measurable with `--agreement`; we did not have that number.
+- **Use two annotators from different providers** and report where they differ,
+  rather than picking one and hoping.
 
 ## The reference grid
 
@@ -129,14 +170,15 @@ Only the first turn, unless you raise `turns`. The map is injected as a
 document, not queried as a tool: a companion that fetches one question at a
 time, with the reasons attached to each position, is a different object and an
 untested one. And the map itself is a canon, written by particular people in a
-particular language — swap `config/referential/axes.json` for your own and the
+particular language — swap `config/framework/axes.json` for your own and the
 yardstick changes with it.
 
 The protocol, with its pre-registered hypotheses and the thresholds fixed
-before collection, is in [PROTOCOL.md](PROTOCOL.md).
+before collection — including the four that were refuted — is in
+[PROTOCOL.md](PROTOCOL.md).
 
 ## Licence
 
-MIT for the code. The referential under `config/referential/` comes from the
+MIT for the code. The analytical framework under `config/framework/` comes from the
 open encyclopedic layer of [Philoscopia](https://philoscopia.com) and carries
 its own licence.

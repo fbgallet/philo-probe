@@ -230,6 +230,7 @@ async function runPass(pass: Pass, rows: RunRow[], annotator: string): Promise<v
             ],
             temperature: 0.1,
             json: true,
+            effort: config.judge.effort,
           });
           const content = res.choices[0]?.message?.content ?? "";
           return pass.schema.parse(JSON.parse(extractJson(content)));

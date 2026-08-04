@@ -28,6 +28,12 @@ panel:
 # which case every result is stamped as self-graded.
 judge:
   model: z-ai/glm-5.2
+  # The annotator's task is interpretive, and the reference study left this
+  # unset: every annotation ran at the provider's default. A blind re-judging
+  # of sixty mentions later showed the annotator over-applying one label about
+  # twice over. Raising the effort is the cheapest thing to try before blaming
+  # the model — and worth measuring with --agreement rather than assuming.
+  effort: high
   allowSelfGrading: false
   # A second annotator, run on a sample, to measure how far two of them agree.
   # `annotate --agreement` compares them. Leave empty to skip.
@@ -41,6 +47,11 @@ judge:
 # reference grid". `collect --dry-run` always prices the grid before sending.
 languages: [fr, en]
 draws: 3 # independent samples per cell, at temperature 1
+# Reasoning effort asked of the tested models. Left unset in the reference
+# study, so each provider used its own default; one of them spent over a
+# thousand tokens thinking before writing, which is how the token ceiling cut
+# 80 % of its answers. Set it if you want the panel on comparable footing.
+# effort: medium
 turns: 1 # 1 = the reference study. >1 replays the relaunches below.
 temperature: 1
 
@@ -65,7 +76,11 @@ batteries:
   - open # 8 open questions, 4 families, tone variants on 2 of them
   # - anchored       # 12 themes × 3 kinds of user (adds 36 questions)
   # - framed         # the open questions, announced as philosophical
-  # - crossed        # 3 situations × 3 question-forms
+  # - crossed        # 3 situations × 3 question-forms, the minimal-pair design:
+  #                    the situation is identical word for word across forms, so
+  #                    only one factor ever varies. It is what overturned the
+  #                    reference study's first interpretation — cheap, and the
+  #                    only battery here that can support a causal claim.
 
 # Tone variants apply to items marked `toned: true`, and only in these
 # languages (crossing them everywhere multiplies the cost for little).
@@ -78,7 +93,7 @@ tonedLanguages: [fr, en]
 #
 #   payload: themes    the axis labels only, as a flat list
 #   payload: questions each axis as "question + the positions one can hold"
-#   scope:   core|all  how much of the referential to include
+#   scope:   core|all  how much of the framework to include
 conditions:
   - id: BARE
     # nothing appended: what a user gets today
@@ -119,11 +134,11 @@ conditions:
     scope: all
     intro: *mapIntro
 
-# The referential behind the payload conditions, and the figure registry used
+# The analytical framework behind the payload conditions, and the figure registry used
 # to fold "Descartes" and "René Descartes" into one person. Replace both to run
 # the experiment against a different map.
-referential:
-  axes: config/referential/axes.json
-  figures: config/referential/figures.json
+framework:
+  axes: config/framework/axes.json
+  figures: config/framework/figures.json
   # Axes suspected of attracting every other theme, declared before collection.
   attractors: [LIFE_MEANING, FREEDOM, ESSENCE, SUFFERING_MEANING]

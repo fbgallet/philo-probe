@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 226" width="820" height="226" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="La même situation, posée sous trois formes">
+<title>La même situation, posée sous trois formes</title>
+<rect width="820" height="226" fill="#ffffff"/>
+<text x="24" y="34" font-size="16" font-weight="600" fill="#1c1917">La même situation, posée sous trois formes</text>
+<text x="24" y="210" font-size="11" fill="#78716c">Situation reproduite mot pour mot d'une forme à l'autre. Aucune ne dépasse 1 % de raisonnement.</text>
+<rect x="24" y="51" width="10" height="10" rx="2" fill="#1e3a5f"/><text x="39" y="60" font-size="11" fill="#78716c">raisonnement</text>
+<rect x="130.2" y="51" width="10" height="10" rx="2" fill="#5b7fa6"/><text x="145.2" y="60" font-size="11" fill="#78716c">exposé doctrinal</text>
+<rect x="260.79999999999995" y="51" width="10" height="10" rx="2" fill="#e0a458"/><text x="275.79999999999995" y="60" font-size="11" fill="#78716c">conseil pratique</text>
+<rect x="391.4" y="51" width="10" height="10" rx="2" fill="#c96a52"/><text x="406.4" y="60" font-size="11" fill="#78716c">soutien émotionnel</text>
+<text x="318" y="91" font-size="11.5" text-anchor="end" fill="#1c1917">réflexive : que devrais-je me demander ?  ·  0,78/4</text>
+<rect x="330.0" y="76" width="430.0" height="20" fill="#e0a458"/>
+<text x="545.0" y="90" font-size="10.5" text-anchor="middle" fill="#1c1917">100 %</text>
+<text x="770" y="90" font-size="10" fill="#78716c">n=108</text>
+<text x="318" y="121" font-size="11.5" text-anchor="end" fill="#1c1917">normative : qu'est-il juste de faire, et pourquoi ?  ·  0,52/4</text>
+<rect x="330.0" y="106" width="4.0" height="20" fill="#1e3a5f"/>
+<rect x="334.0" y="106" width="426.0" height="20" fill="#e0a458"/>
+<text x="547.0" y="120" font-size="10.5" text-anchor="middle" fill="#1c1917">99 %</text>
+<text x="770" y="120" font-size="10" fill="#78716c">n=108</text>
+<text x="318" y="151" font-size="11.5" text-anchor="end" fill="#1c1917">doctrinale : qu'a dit la philosophie ?  ·  1,56/4</text>
+<rect x="330.0" y="136" width="4.0" height="20" fill="#1e3a5f"/>
+<rect x="334.0" y="136" width="330.5" height="20" fill="#5b7fa6"/>
+<text x="499.2" y="150" font-size="10.5" text-anchor="middle" fill="#ffffff">77 %</text>
+<rect x="664.4" y="136" width="95.6" height="20" fill="#e0a458"/>
+<text x="712.2" y="150" font-size="10.5" text-anchor="middle" fill="#1c1917">22 %</text>
+<text x="770" y="150" font-size="10" fill="#78716c">n=108</text>
+</svg>

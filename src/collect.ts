@@ -181,6 +181,7 @@ async function main() {
           messages,
           temperature: config.temperature,
           maxTokens: config.maxTokens,
+          effort: config.effort,
         }),
       );
       if (!res) return void (failures += 1);

@@ -8,6 +8,10 @@
       "Adam Smith",
       "Adam Smith"
     ],
+    "label": {
+      "fr": "Smith",
+      "en": "Smith"
+    },
     "birth": 1723,
     "nationality": "Scottish"
   },
@@ -20,6 +24,10 @@
       "Theodor W. Adorno",
       "Theodor W. Adorno"
     ],
+    "label": {
+      "fr": "Adorno",
+      "en": "Adorno"
+    },
     "birth": 1903,
     "nationality": "German"
   },
@@ -31,6 +39,10 @@
       "Albert the Great",
       "Albertus Magnus"
     ],
+    "label": {
+      "fr": "Albert le Grand",
+      "en": "Albert the Great"
+    },
     "birth": 1200,
     "nationality": "German"
   },
@@ -41,6 +53,10 @@
       "Günther Anders",
       "Günther Anders"
     ],
+    "label": {
+      "fr": "Günther Anders",
+      "en": "Günther Anders"
+    },
     "birth": 1902,
     "nationality": "German"
   },
@@ -53,6 +69,10 @@
       "Anscombe",
       "G.E.M. Anscombe"
     ],
+    "label": {
+      "fr": "Elizabeth Anscombe",
+      "en": "Elizabeth Anscombe"
+    },
     "birth": 1919,
     "nationality": "British"
   },
@@ -65,6 +85,10 @@
       "Anselm",
       "Anselmian"
     ],
+    "label": {
+      "fr": "Anselme de Cantorbéry",
+      "en": "Anselm of Canterbury"
+    },
     "birth": 1033,
     "nationality": "Italian"
   },
@@ -75,6 +99,10 @@
       "Antisthène",
       "Antisthenes"
     ],
+    "label": {
+      "fr": "Antisthène",
+      "en": "Antisthenes"
+    },
     "birth": -445,
     "nationality": "Greek"
   },
@@ -91,6 +119,10 @@
       "Thomists",
       "Aquinas"
     ],
+    "label": {
+      "fr": "Thomas d'Aquin",
+      "en": "Thomas Aquinas"
+    },
     "birth": 1225,
     "nationality": "Italian"
   },
@@ -101,6 +133,10 @@
       "Arcésilas",
       "Arcesilaus"
     ],
+    "label": {
+      "fr": "Arcésilas",
+      "en": "Arcesilaus"
+    },
     "birth": -316,
     "nationality": "Greek"
   },
@@ -113,6 +149,10 @@
       "Arendt",
       "Arendtian"
     ],
+    "label": {
+      "fr": "Hannah Arendt",
+      "en": "Hannah Arendt"
+    },
     "birth": 1906,
     "nationality": "German-born American"
   },
@@ -127,6 +167,10 @@
       "Aristotelian",
       "Aristotelianism"
     ],
+    "label": {
+      "fr": "Aristote",
+      "en": "Aristotle"
+    },
     "birth": -384,
     "nationality": "Greek"
   },
@@ -139,6 +183,10 @@
       "Augustinian",
       "Augustinianism"
     ],
+    "label": {
+      "fr": "Augustin",
+      "en": "Augustine"
+    },
     "birth": 354,
     "nationality": "Roman African"
   },
@@ -152,6 +200,10 @@
       "Averroist",
       "Averroism"
     ],
+    "label": {
+      "fr": "Averroès",
+      "en": "Averroes"
+    },
     "birth": 1126,
     "nationality": "Andalusian"
   },
@@ -165,6 +217,10 @@
       "Avicennian",
       "Avicennism"
     ],
+    "label": {
+      "fr": "Avicenne",
+      "en": "Avicenna"
+    },
     "birth": 980,
     "nationality": "Persian"
   },
@@ -178,6 +234,10 @@
       "Francis Bacon",
       "Baconian"
     ],
+    "label": {
+      "fr": "Bacon",
+      "en": "Bacon"
+    },
     "birth": 1561,
     "nationality": "English"
   },
@@ -188,6 +248,10 @@
       "Bādarāyaṇa",
       "Bādarāyaṇa"
     ],
+    "label": {
+      "fr": "Bādarāyaṇa",
+      "en": "Bādarāyaṇa"
+    },
     "nationality": "Indian"
   },
   {
@@ -200,6 +264,10 @@
       "Simone de Beauvoir",
       "Beauvoirian"
     ],
+    "label": {
+      "fr": "Beauvoir",
+      "en": "Beauvoir"
+    },
     "birth": 1908,
     "nationality": "French"
   },
@@ -212,6 +280,10 @@
       "Cesare Beccaria",
       "Cesare Beccaria"
     ],
+    "label": {
+      "fr": "Beccaria",
+      "en": "Beccaria"
+    },
     "birth": 1738,
     "nationality": "Italian"
   },
@@ -226,6 +298,10 @@
       "Benthamite",
       "Benthamism"
     ],
+    "label": {
+      "fr": "Bentham",
+      "en": "Bentham"
+    },
     "birth": 1748,
     "nationality": "English"
   },
@@ -238,6 +314,10 @@
       "Bergsonian",
       "Bergsonism"
     ],
+    "label": {
+      "fr": "Henri Bergson",
+      "en": "Henri Bergson"
+    },
     "birth": 1859,
     "nationality": "French"
   },
@@ -252,6 +332,10 @@
       "Berkeleian",
       "Berkeleyan"
     ],
+    "label": {
+      "fr": "George Berkeley",
+      "en": "George Berkeley"
+    },
     "birth": 1685,
     "nationality": "Irish"
   },
@@ -262,6 +346,10 @@
       "Isaiah Berlin",
       "Isaiah Berlin"
     ],
+    "label": {
+      "fr": "Isaiah Berlin",
+      "en": "Isaiah Berlin"
+    },
     "birth": 1909,
     "nationality": "British"
   },
@@ -273,6 +361,10 @@
       "Boethius",
       "Boethian"
     ],
+    "label": {
+      "fr": "Boèce",
+      "en": "Boethius"
+    },
     "birth": 477,
     "nationality": "Roman"
   },
@@ -283,6 +375,10 @@
       "Nick Bostrom",
       "Nick Bostrom"
     ],
+    "label": {
+      "fr": "Nick Bostrom",
+      "en": "Nick Bostrom"
+    },
     "birth": 1973,
     "nationality": "Swedish"
   },
@@ -294,6 +390,10 @@
       "Franz Brentano",
       "Brentanian"
     ],
+    "label": {
+      "fr": "Franz Brentano",
+      "en": "Franz Brentano"
+    },
     "birth": 1838,
     "nationality": "Austrian"
   },
@@ -308,6 +408,10 @@
       "Siddhartha Gautama",
       "Gautama Buddha"
     ],
+    "label": {
+      "fr": "Le Bouddha",
+      "en": "The Buddha"
+    },
     "birth": -563,
     "nationality": "Indian"
   },
@@ -319,6 +423,10 @@
       "Burke",
       "Burkean"
     ],
+    "label": {
+      "fr": "Burke",
+      "en": "Burke"
+    },
     "birth": 1729,
     "nationality": "Anglo-Irish"
   },
@@ -332,6 +440,10 @@
       "Albert Camus",
       "Camusian"
     ],
+    "label": {
+      "fr": "Camus",
+      "en": "Camus"
+    },
     "birth": 1913,
     "nationality": "French"
   },
@@ -342,6 +454,10 @@
       "Rudolf Carnap",
       "Rudolf Carnap"
     ],
+    "label": {
+      "fr": "Rudolf Carnap",
+      "en": "Rudolf Carnap"
+    },
     "birth": 1891,
     "nationality": "German"
   },
@@ -354,6 +470,10 @@
       "David Chalmers",
       "David Chalmers"
     ],
+    "label": {
+      "fr": "Chalmers",
+      "en": "Chalmers"
+    },
     "birth": 1966,
     "nationality": "Australian"
   },
@@ -364,6 +484,10 @@
       "Chrysippe",
       "Chrysippus"
     ],
+    "label": {
+      "fr": "Chrysippe",
+      "en": "Chrysippus"
+    },
     "birth": -279,
     "nationality": "Greek"
   },
@@ -375,6 +499,10 @@
       "Clausewitz",
       "Clausewitzian"
     ],
+    "label": {
+      "fr": "Clausewitz",
+      "en": "Clausewitz"
+    },
     "birth": 1780,
     "nationality": "Prussian"
   },
@@ -385,6 +513,10 @@
       "William Kingdon Clifford",
       "William Kingdon Clifford"
     ],
+    "label": {
+      "fr": "William Kingdon Clifford",
+      "en": "William Kingdon Clifford"
+    },
     "birth": 1845,
     "nationality": "British"
   },
@@ -396,6 +528,10 @@
       "Coleridge",
       "Coleridgean"
     ],
+    "label": {
+      "fr": "Coleridge",
+      "en": "Coleridge"
+    },
     "birth": 1772,
     "nationality": "English"
   },
@@ -407,6 +543,10 @@
       "Comte",
       "Comtean"
     ],
+    "label": {
+      "fr": "Comte",
+      "en": "Comte"
+    },
     "birth": 1798,
     "nationality": "French"
   },
@@ -419,6 +559,10 @@
       "Étienne Bonnot de Condillac",
       "Étienne Bonnot de Condillac"
     ],
+    "label": {
+      "fr": "Condillac",
+      "en": "Condillac"
+    },
     "birth": 1714,
     "nationality": "French"
   },
@@ -431,6 +575,10 @@
       "Nicolas de Condorcet",
       "Nicolas de Condorcet"
     ],
+    "label": {
+      "fr": "Condorcet",
+      "en": "Condorcet"
+    },
     "birth": 1743,
     "nationality": "French"
   },
@@ -446,6 +594,10 @@
       "Kong Qiu",
       "Master Kong"
     ],
+    "label": {
+      "fr": "Confucius",
+      "en": "Confucius"
+    },
     "birth": -551,
     "nationality": "Chinese"
   },
@@ -457,6 +609,10 @@
       "Constant",
       "Benjamin Constant"
     ],
+    "label": {
+      "fr": "Constant",
+      "en": "Constant"
+    },
     "birth": 1767,
     "nationality": "Franco-Swiss"
   },
@@ -467,6 +623,10 @@
       "Cratès",
       "Crates"
     ],
+    "label": {
+      "fr": "Cratès",
+      "en": "Crates"
+    },
     "birth": -365,
     "nationality": "Greek"
   },
@@ -479,6 +639,10 @@
       "Jean le Rond d'Alembert",
       "Jean le Rond d'Alembert"
     ],
+    "label": {
+      "fr": "d'Alembert",
+      "en": "d'Alembert"
+    },
     "birth": 1717,
     "nationality": "French"
   },
@@ -491,6 +655,10 @@
       "Daniel Dennett",
       "Daniel Dennett"
     ],
+    "label": {
+      "fr": "Dennett",
+      "en": "Dennett"
+    },
     "birth": 1942,
     "nationality": "American"
   },
@@ -502,6 +670,10 @@
       "Derrida",
       "Derridean"
     ],
+    "label": {
+      "fr": "Derrida",
+      "en": "Derrida"
+    },
     "birth": 1930,
     "nationality": "French"
   },
@@ -515,6 +687,10 @@
       "René Descartes",
       "Cartesian"
     ],
+    "label": {
+      "fr": "Descartes",
+      "en": "Descartes"
+    },
     "birth": 1596,
     "nationality": "French"
   },
@@ -526,6 +702,10 @@
       "John Dewey",
       "Deweyan"
     ],
+    "label": {
+      "fr": "John Dewey",
+      "en": "John Dewey"
+    },
     "birth": 1859,
     "nationality": "American"
   },
@@ -538,6 +718,10 @@
       "Denis Diderot",
       "Denis Diderot"
     ],
+    "label": {
+      "fr": "Diderot",
+      "en": "Diderot"
+    },
     "birth": 1713,
     "nationality": "French"
   },
@@ -550,6 +734,10 @@
       "Diogène de Sinope, dit le Cynique",
       "Diogenes of Sinope, the Cynic"
     ],
+    "label": {
+      "fr": "Diogène de Sinope",
+      "en": "Diogenes of Sinope"
+    },
     "birth": -412,
     "nationality": "Greek"
   },
@@ -560,6 +748,10 @@
       "Dōgen",
       "Dōgen"
     ],
+    "label": {
+      "fr": "Dōgen",
+      "en": "Dōgen"
+    },
     "birth": 1200,
     "nationality": "Japanese"
   },
@@ -572,6 +764,10 @@
       "Fyodor Dostoevsky",
       "Dostoyevsky"
     ],
+    "label": {
+      "fr": "Dostoïevski",
+      "en": "Dostoevsky"
+    },
     "birth": 1821,
     "nationality": "Russian"
   },
@@ -586,6 +782,10 @@
       "Princess Elisabeth",
       "Elisabeth of the Palatinate"
     ],
+    "label": {
+      "fr": "Élisabeth de Bohême",
+      "en": "Elisabeth of Bohemia"
+    },
     "birth": 1618,
     "nationality": "German"
   },
@@ -596,6 +796,10 @@
       "Jacques Ellul",
       "Jacques Ellul"
     ],
+    "label": {
+      "fr": "Jacques Ellul",
+      "en": "Jacques Ellul"
+    },
     "birth": 1912,
     "nationality": "French"
   },
@@ -606,6 +810,10 @@
       "Friedrich Engels",
       "Friedrich Engels"
     ],
+    "label": {
+      "fr": "Friedrich Engels",
+      "en": "Friedrich Engels"
+    },
     "birth": 1820,
     "nationality": "German"
   },
@@ -616,6 +824,10 @@
       "Épictète",
       "Epictetus"
     ],
+    "label": {
+      "fr": "Épictète",
+      "en": "Epictetus"
+    },
     "birth": 50,
     "nationality": "Greek"
   },
@@ -630,6 +842,10 @@
       "Epicurean",
       "Epicureanism"
     ],
+    "label": {
+      "fr": "Épicure",
+      "en": "Epicurus"
+    },
     "birth": -341,
     "nationality": "Greek"
   },
@@ -641,6 +857,10 @@
       "Frantz Fanon",
       "Fanonian"
     ],
+    "label": {
+      "fr": "Frantz Fanon",
+      "en": "Frantz Fanon"
+    },
     "birth": 1925,
     "nationality": "French (Martinique)"
   },
@@ -652,6 +872,10 @@
       "Ludwig Feuerbach",
       "Feuerbach"
     ],
+    "label": {
+      "fr": "Ludwig Feuerbach",
+      "en": "Ludwig Feuerbach"
+    },
     "birth": 1804,
     "nationality": "German"
   },
@@ -663,6 +887,10 @@
       "Feyerabend",
       "Feyerabendian"
     ],
+    "label": {
+      "fr": "Feyerabend",
+      "en": "Feyerabend"
+    },
     "birth": 1924,
     "nationality": "Austrian"
   },
@@ -676,6 +904,10 @@
       "Johann Gottlieb Fichte",
       "Fichtean"
     ],
+    "label": {
+      "fr": "Fichte",
+      "en": "Fichte"
+    },
     "birth": 1762,
     "nationality": "German"
   },
@@ -687,6 +919,10 @@
       "Foucault",
       "Foucauldian"
     ],
+    "label": {
+      "fr": "Foucault",
+      "en": "Foucault"
+    },
     "birth": 1926,
     "nationality": "French"
   },
@@ -697,6 +933,10 @@
       "Harry Frankfurt",
       "Harry Frankfurt"
     ],
+    "label": {
+      "fr": "Harry Frankfurt",
+      "en": "Harry Frankfurt"
+    },
     "birth": 1929,
     "nationality": "American"
   },
@@ -708,6 +948,10 @@
       "Frege",
       "Fregean"
     ],
+    "label": {
+      "fr": "Frege",
+      "en": "Frege"
+    },
     "birth": 1848,
     "nationality": "German"
   },
@@ -720,6 +964,10 @@
       "Freudian",
       "Freudianism"
     ],
+    "label": {
+      "fr": "Sigmund Freud",
+      "en": "Sigmund Freud"
+    },
     "birth": 1856,
     "nationality": "Austrian"
   },
@@ -730,6 +978,10 @@
       "Fukuyama",
       "Fukuyama"
     ],
+    "label": {
+      "fr": "Fukuyama",
+      "en": "Fukuyama"
+    },
     "birth": 1952,
     "nationality": "American"
   },
@@ -740,6 +992,10 @@
       "Galen Strawson",
       "Galen Strawson"
     ],
+    "label": {
+      "fr": "Galen Strawson",
+      "en": "Galen Strawson"
+    },
     "birth": 1952,
     "nationality": "British"
   },
@@ -752,6 +1008,10 @@
       "Gandhian",
       "Gandhism"
     ],
+    "label": {
+      "fr": "Gandhi",
+      "en": "Gandhi"
+    },
     "birth": 1869,
     "nationality": "Indian"
   },
@@ -762,6 +1022,10 @@
       "Gauḍapāda",
       "Gauḍapāda"
     ],
+    "label": {
+      "fr": "Gauḍapāda",
+      "en": "Gauḍapāda"
+    },
     "nationality": "Indian"
   },
   {
@@ -771,6 +1035,10 @@
       "Carol Gilligan",
       "Carol Gilligan"
     ],
+    "label": {
+      "fr": "Carol Gilligan",
+      "en": "Carol Gilligan"
+    },
     "birth": 1936,
     "nationality": "American"
   },
@@ -781,6 +1049,10 @@
       "Alvin Goldman",
       "Alvin Goldman"
     ],
+    "label": {
+      "fr": "Alvin Goldman",
+      "en": "Alvin Goldman"
+    },
     "birth": 1938,
     "nationality": "American"
   },
@@ -791,6 +1063,10 @@
       "Gorgias",
       "Gorgias"
     ],
+    "label": {
+      "fr": "Gorgias",
+      "en": "Gorgias"
+    },
     "birth": -483,
     "nationality": "Greek (Sicily)"
   },
@@ -803,6 +1079,10 @@
       "Gramscian",
       "Gramscism"
     ],
+    "label": {
+      "fr": "Antonio Gramsci",
+      "en": "Antonio Gramsci"
+    },
     "birth": 1891,
     "nationality": "Italian"
   },
@@ -813,6 +1093,10 @@
       "Charles Griswold",
       "Charles Griswold"
     ],
+    "label": {
+      "fr": "Charles Griswold",
+      "en": "Charles Griswold"
+    },
     "birth": 1951,
     "nationality": "American"
   },
@@ -824,6 +1108,10 @@
       "Habermas",
       "Habermasian"
     ],
+    "label": {
+      "fr": "Habermas",
+      "en": "Habermas"
+    },
     "birth": 1929,
     "nationality": "German"
   },
@@ -834,6 +1122,10 @@
       "Pierre Hadot",
       "Pierre Hadot"
     ],
+    "label": {
+      "fr": "Pierre Hadot",
+      "en": "Pierre Hadot"
+    },
     "birth": 1922,
     "nationality": "French"
   },
@@ -846,6 +1138,10 @@
       "Friedrich Hayek",
       "Hayekian"
     ],
+    "label": {
+      "fr": "Hayek",
+      "en": "Hayek"
+    },
     "birth": 1899,
     "nationality": "Austrian-British"
   },
@@ -860,6 +1156,10 @@
       "Hegelian",
       "Hegelianism"
     ],
+    "label": {
+      "fr": "Hegel",
+      "en": "Hegel"
+    },
     "birth": 1770,
     "nationality": "German"
   },
@@ -871,6 +1171,10 @@
       "Heidegger",
       "Heideggerian"
     ],
+    "label": {
+      "fr": "Heidegger",
+      "en": "Heidegger"
+    },
     "birth": 1889,
     "nationality": "German"
   },
@@ -883,6 +1187,10 @@
       "Claude-Adrien Helvétius",
       "Claude-Adrien Helvétius"
     ],
+    "label": {
+      "fr": "Helvétius",
+      "en": "Helvétius"
+    },
     "birth": 1715,
     "nationality": "French"
   },
@@ -894,6 +1202,10 @@
       "Heraclitus",
       "Heraclitean"
     ],
+    "label": {
+      "fr": "Héraclite",
+      "en": "Heraclitus"
+    },
     "birth": -544,
     "nationality": "Greek (Ephesus)"
   },
@@ -904,6 +1216,10 @@
       "Herder",
       "Herder"
     ],
+    "label": {
+      "fr": "Herder",
+      "en": "Herder"
+    },
     "birth": 1744,
     "nationality": "German"
   },
@@ -915,6 +1231,10 @@
       "Hobbes",
       "Hobbesian"
     ],
+    "label": {
+      "fr": "Hobbes",
+      "en": "Hobbes"
+    },
     "birth": 1588,
     "nationality": "English"
   },
@@ -927,6 +1247,10 @@
       "Paul-Henri Thiry, baron d'Holbach",
       "Paul-Henri Thiry, Baron d'Holbach"
     ],
+    "label": {
+      "fr": "d'Holbach",
+      "en": "d'Holbach"
+    },
     "birth": 1723,
     "nationality": "French (German-born)"
   },
@@ -939,6 +1263,10 @@
       "Max Horkheimer",
       "Max Horkheimer"
     ],
+    "label": {
+      "fr": "Horkheimer",
+      "en": "Horkheimer"
+    },
     "birth": 1895,
     "nationality": "German"
   },
@@ -949,6 +1277,10 @@
       "Hui Shi",
       "Hui Shi"
     ],
+    "label": {
+      "fr": "Hui Shi",
+      "en": "Hui Shi"
+    },
     "birth": -370,
     "nationality": "Chinese"
   },
@@ -962,6 +1294,10 @@
       "David Hume",
       "Humean"
     ],
+    "label": {
+      "fr": "Hume",
+      "en": "Hume"
+    },
     "birth": 1711,
     "nationality": "Scottish"
   },
@@ -975,6 +1311,10 @@
       "Edmund Husserl",
       "Husserlian"
     ],
+    "label": {
+      "fr": "Husserl",
+      "en": "Husserl"
+    },
     "birth": 1859,
     "nationality": "German"
   },
@@ -985,6 +1325,10 @@
       "Jankélévitch",
       "Jankélévitch"
     ],
+    "label": {
+      "fr": "Jankélévitch",
+      "en": "Jankélévitch"
+    },
     "birth": 1903,
     "nationality": "French"
   },
@@ -995,6 +1339,10 @@
       "Jonas",
       "Jonas"
     ],
+    "label": {
+      "fr": "Jonas",
+      "en": "Jonas"
+    },
     "birth": 1903,
     "nationality": "German"
   },
@@ -1009,6 +1357,10 @@
       "Kantian",
       "Kantianism"
     ],
+    "label": {
+      "fr": "Kant",
+      "en": "Kant"
+    },
     "birth": 1724,
     "nationality": "Prussian"
   },
@@ -1020,6 +1372,10 @@
       "Kierkegaard",
       "Kierkegaardian"
     ],
+    "label": {
+      "fr": "Kierkegaard",
+      "en": "Kierkegaard"
+    },
     "birth": 1813,
     "nationality": "Danish"
   },
@@ -1030,6 +1386,10 @@
       "La Mettrie",
       "La Mettrie"
     ],
+    "label": {
+      "fr": "La Mettrie",
+      "en": "La Mettrie"
+    },
     "birth": 1709,
     "nationality": "French"
   },
@@ -1044,6 +1404,10 @@
       "Lao Tzu",
       "Lao-tzu"
     ],
+    "label": {
+      "fr": "Laozi",
+      "en": "Laozi"
+    },
     "birth": -571,
     "nationality": "Chinese"
   },
@@ -1057,6 +1421,10 @@
       "Gottfried Wilhelm Leibniz",
       "Leibnizian"
     ],
+    "label": {
+      "fr": "Leibniz",
+      "en": "Leibniz"
+    },
     "birth": 1646,
     "nationality": "German"
   },
@@ -1067,6 +1435,10 @@
       "Aldo Leopold",
       "Aldo Leopold"
     ],
+    "label": {
+      "fr": "Aldo Leopold",
+      "en": "Aldo Leopold"
+    },
     "birth": 1887,
     "nationality": "American"
   },
@@ -1078,6 +1450,10 @@
       "Emmanuel Levinas",
       "Levinasian"
     ],
+    "label": {
+      "fr": "Emmanuel Levinas",
+      "en": "Emmanuel Levinas"
+    },
     "birth": 1906,
     "nationality": "French"
   },
@@ -1088,6 +1464,10 @@
       "Liezi",
       "Liezi"
     ],
+    "label": {
+      "fr": "Liezi",
+      "en": "Liezi"
+    },
     "nationality": "Chinese"
   },
   {
@@ -1100,6 +1480,10 @@
       "John Locke",
       "Lockean"
     ],
+    "label": {
+      "fr": "Locke",
+      "en": "Locke"
+    },
     "birth": 1632,
     "nationality": "English"
   },
@@ -1113,6 +1497,10 @@
       "Titus Lucretius Carus",
       "Lucretian"
     ],
+    "label": {
+      "fr": "Lucrèce",
+      "en": "Lucretius"
+    },
     "birth": -99,
     "nationality": "Roman"
   },
@@ -1127,6 +1515,10 @@
       "Machiavellian",
       "Machiavellianism"
     ],
+    "label": {
+      "fr": "Machiavel",
+      "en": "Machiavelli"
+    },
     "birth": 1469,
     "nationality": "Italian"
   },
@@ -1138,6 +1530,10 @@
       "Maimonides",
       "Maimonidean"
     ],
+    "label": {
+      "fr": "Maïmonide",
+      "en": "Maimonides"
+    },
     "birth": 1138,
     "nationality": "Andalusian"
   },
@@ -1148,6 +1544,10 @@
       "Marc Aurèle",
       "Marcus Aurelius"
     ],
+    "label": {
+      "fr": "Marc Aurèle",
+      "en": "Marcus Aurelius"
+    },
     "birth": 121,
     "nationality": "Roman"
   },
@@ -1163,6 +1563,10 @@
       "Marxism",
       "Marxian"
     ],
+    "label": {
+      "fr": "Marx",
+      "en": "Marx"
+    },
     "birth": 1818,
     "nationality": "German"
   },
@@ -1173,6 +1577,10 @@
       "Max More",
       "Max More"
     ],
+    "label": {
+      "fr": "Max More",
+      "en": "Max More"
+    },
     "birth": 1964,
     "nationality": "Anglo-American"
   },
@@ -1184,6 +1592,10 @@
       "Mencius",
       "Mengzi"
     ],
+    "label": {
+      "fr": "Mencius",
+      "en": "Mencius"
+    },
     "birth": -372,
     "nationality": "Chinese"
   },
@@ -1195,6 +1607,10 @@
       "Merleau-Ponty",
       "Merleau-Pontian"
     ],
+    "label": {
+      "fr": "Merleau-Ponty",
+      "en": "Merleau-Ponty"
+    },
     "birth": 1908,
     "nationality": "French"
   },
@@ -1205,6 +1621,10 @@
       "Métrodore",
       "Metrodorus"
     ],
+    "label": {
+      "fr": "Métrodore",
+      "en": "Metrodorus"
+    },
     "birth": -331,
     "nationality": "Greek"
   },
@@ -1218,6 +1638,10 @@
       "John Stuart Mill",
       "Millian"
     ],
+    "label": {
+      "fr": "Mill",
+      "en": "Mill"
+    },
     "birth": 1806,
     "nationality": "English"
   },
@@ -1231,6 +1655,10 @@
       "Michel Eyquem de Montaigne",
       "Montaignian"
     ],
+    "label": {
+      "fr": "Michel de Montaigne",
+      "en": "Michel de Montaigne"
+    },
     "birth": 1533,
     "nationality": "French"
   },
@@ -1243,6 +1671,10 @@
       "Charles-Louis de Secondat, baron de Montesquieu",
       "Charles-Louis de Secondat, Baron de Montesquieu"
     ],
+    "label": {
+      "fr": "Montesquieu",
+      "en": "Montesquieu"
+    },
     "birth": 1689,
     "nationality": "French"
   },
@@ -1254,6 +1686,10 @@
       "Moore",
       "Moorean"
     ],
+    "label": {
+      "fr": "Moore",
+      "en": "Moore"
+    },
     "birth": 1873,
     "nationality": "English"
   },
@@ -1266,6 +1702,10 @@
       "Edgar Morin",
       "complex thought"
     ],
+    "label": {
+      "fr": "Morin",
+      "en": "Morin"
+    },
     "birth": 1921,
     "nationality": "French"
   },
@@ -1276,6 +1716,10 @@
       "Arne Næss",
       "Arne Næss"
     ],
+    "label": {
+      "fr": "Arne Næss",
+      "en": "Arne Næss"
+    },
     "birth": 1912,
     "nationality": "Norwegian"
   },
@@ -1287,6 +1731,10 @@
       "Nāgārjuna",
       "Nagarjuna"
     ],
+    "label": {
+      "fr": "Nāgārjuna",
+      "en": "Nāgārjuna"
+    },
     "birth": 150,
     "nationality": "Indian"
   },
@@ -1299,6 +1747,10 @@
       "Thomas Nagel",
       "Thomas Nagel"
     ],
+    "label": {
+      "fr": "Nagel",
+      "en": "Nagel"
+    },
     "birth": 1937,
     "nationality": "American"
   },
@@ -1312,6 +1764,10 @@
       "Isaac Newton",
       "Newtonian"
     ],
+    "label": {
+      "fr": "Newton",
+      "en": "Newton"
+    },
     "birth": 1643,
     "nationality": "English"
   },
@@ -1325,6 +1781,10 @@
       "Friedrich Nietzsche",
       "Nietzschean"
     ],
+    "label": {
+      "fr": "Nietzsche",
+      "en": "Nietzsche"
+    },
     "birth": 1844,
     "nationality": "German"
   },
@@ -1336,6 +1796,10 @@
       "Novalis",
       "Friedrich von Hardenberg"
     ],
+    "label": {
+      "fr": "Novalis",
+      "en": "Novalis"
+    },
     "birth": 1772,
     "nationality": "German"
   },
@@ -1347,6 +1811,10 @@
       "Nozick",
       "Nozickian"
     ],
+    "label": {
+      "fr": "Nozick",
+      "en": "Nozick"
+    },
     "birth": 1938,
     "nationality": "American"
   },
@@ -1357,6 +1825,10 @@
       "Martha Nussbaum",
       "Martha Nussbaum"
     ],
+    "label": {
+      "fr": "Martha Nussbaum",
+      "en": "Martha Nussbaum"
+    },
     "birth": 1947,
     "nationality": "American"
   },
@@ -1367,6 +1839,10 @@
       "Ruwen Ogien",
       "Ruwen Ogien"
     ],
+    "label": {
+      "fr": "Ruwen Ogien",
+      "en": "Ruwen Ogien"
+    },
     "birth": 1947,
     "nationality": "French"
   },
@@ -1378,6 +1854,10 @@
       "Thomas Paine",
       "Paineite"
     ],
+    "label": {
+      "fr": "Thomas Paine",
+      "en": "Thomas Paine"
+    },
     "birth": 1737,
     "nationality": "Anglo-American"
   },
@@ -1389,6 +1869,10 @@
       "Derek Parfit",
       "Parfitian"
     ],
+    "label": {
+      "fr": "Derek Parfit",
+      "en": "Derek Parfit"
+    },
     "birth": 1942,
     "nationality": "British"
   },
@@ -1400,6 +1884,10 @@
       "Parmenides",
       "Parmenidean"
     ],
+    "label": {
+      "fr": "Parménide",
+      "en": "Parmenides"
+    },
     "birth": -515,
     "nationality": "Greek (Elea)"
   },
@@ -1411,6 +1899,10 @@
       "Pascal",
       "Pascalian"
     ],
+    "label": {
+      "fr": "Pascal",
+      "en": "Pascal"
+    },
     "birth": 1623,
     "nationality": "French"
   },
@@ -1424,6 +1916,10 @@
       "Charles Sanders Peirce",
       "Peircean"
     ],
+    "label": {
+      "fr": "Charles Sanders Peirce",
+      "en": "Charles Sanders Peirce"
+    },
     "birth": 1839,
     "nationality": "American"
   },
@@ -1434,6 +1930,10 @@
       "Derk Pereboom",
       "Derk Pereboom"
     ],
+    "label": {
+      "fr": "Derk Pereboom",
+      "en": "Derk Pereboom"
+    },
     "birth": 1957,
     "nationality": "American"
   },
@@ -1445,6 +1945,10 @@
       "Peter Strawson",
       "P. F. Strawson"
     ],
+    "label": {
+      "fr": "Peter Strawson",
+      "en": "Peter Strawson"
+    },
     "birth": 1919,
     "nationality": "British"
   },
@@ -1456,6 +1960,10 @@
       "Plantinga",
       "Alvin Plantinga"
     ],
+    "label": {
+      "fr": "Plantinga",
+      "en": "Plantinga"
+    },
     "birth": 1932,
     "nationality": "American"
   },
@@ -1467,6 +1975,10 @@
       "Plato",
       "Platonic"
     ],
+    "label": {
+      "fr": "Platon",
+      "en": "Plato"
+    },
     "birth": -428,
     "nationality": "Greek"
   },
@@ -1480,6 +1992,10 @@
       "Plotinus",
       "Plotinian"
     ],
+    "label": {
+      "fr": "Plotin",
+      "en": "Plotinus"
+    },
     "birth": 204,
     "nationality": "Greek"
   },
@@ -1491,6 +2007,10 @@
       "Popper",
       "Popperian"
     ],
+    "label": {
+      "fr": "Popper",
+      "en": "Popper"
+    },
     "birth": 1902,
     "nationality": "Austrian-British"
   },
@@ -1501,6 +2021,10 @@
       "Protagoras",
       "Protagoras"
     ],
+    "label": {
+      "fr": "Protagoras",
+      "en": "Protagoras"
+    },
     "birth": -490,
     "nationality": "Greek (Abdera)"
   },
@@ -1515,6 +2039,10 @@
       "Pyrrhonian",
       "Pyrrhonism"
     ],
+    "label": {
+      "fr": "Pyrrhon",
+      "en": "Pyrrho"
+    },
     "birth": -360,
     "nationality": "Greek"
   },
@@ -1525,6 +2053,10 @@
       "Frank Ramsey",
       "Frank Ramsey"
     ],
+    "label": {
+      "fr": "Frank Ramsey",
+      "en": "Frank Ramsey"
+    },
     "birth": 1903,
     "nationality": "British"
   },
@@ -1536,6 +2068,10 @@
       "Rawls",
       "Rawlsian"
     ],
+    "label": {
+      "fr": "Rawls",
+      "en": "Rawls"
+    },
     "birth": 1921,
     "nationality": "American"
   },
@@ -1547,6 +2083,10 @@
       "Tom Regan",
       "Reganian"
     ],
+    "label": {
+      "fr": "Tom Regan",
+      "en": "Tom Regan"
+    },
     "birth": 1938,
     "nationality": "American"
   },
@@ -1557,6 +2097,10 @@
       "Thomas Reid",
       "Thomas Reid"
     ],
+    "label": {
+      "fr": "Thomas Reid",
+      "en": "Thomas Reid"
+    },
     "birth": 1710,
     "nationality": "Scottish"
   },
@@ -1569,6 +2113,10 @@
       "Ricoeur",
       "Ricoeurian"
     ],
+    "label": {
+      "fr": "Paul Ricœur",
+      "en": "Paul Ricœur"
+    },
     "birth": 1913,
     "nationality": "French"
   },
@@ -1583,6 +2131,10 @@
       "Rousseauian",
       "Rousseauist"
     ],
+    "label": {
+      "fr": "Rousseau",
+      "en": "Rousseau"
+    },
     "birth": 1712,
     "nationality": "Genevan"
   },
@@ -1596,6 +2148,10 @@
       "Bertrand Russell",
       "Russellian"
     ],
+    "label": {
+      "fr": "Russell",
+      "en": "Russell"
+    },
     "birth": 1872,
     "nationality": "British"
   },
@@ -1606,6 +2162,10 @@
       "Richard Ryder",
       "Richard Ryder"
     ],
+    "label": {
+      "fr": "Richard Ryder",
+      "en": "Richard Ryder"
+    },
     "birth": 1940,
     "nationality": "British"
   },
@@ -1616,6 +2176,10 @@
       "Sandel",
       "Sandel"
     ],
+    "label": {
+      "fr": "Sandel",
+      "en": "Sandel"
+    },
     "birth": 1953,
     "nationality": "American"
   },
@@ -1629,6 +2193,10 @@
       "Jean-Paul Sartre",
       "Sartrean"
     ],
+    "label": {
+      "fr": "Sartre",
+      "en": "Sartre"
+    },
     "birth": 1905,
     "nationality": "French"
   },
@@ -1640,6 +2208,10 @@
       "Schelling",
       "Schellingian"
     ],
+    "label": {
+      "fr": "Schelling",
+      "en": "Schelling"
+    },
     "birth": 1775,
     "nationality": "German"
   },
@@ -1651,6 +2223,10 @@
       "Schiller",
       "Schillerian"
     ],
+    "label": {
+      "fr": "Schiller",
+      "en": "Schiller"
+    },
     "birth": 1759,
     "nationality": "German"
   },
@@ -1664,6 +2240,10 @@
       "Arthur Schopenhauer",
       "Schopenhauerian"
     ],
+    "label": {
+      "fr": "Schopenhauer",
+      "en": "Schopenhauer"
+    },
     "birth": 1788,
     "nationality": "German"
   },
@@ -1674,6 +2254,10 @@
       "Albert Schweitzer",
       "Albert Schweitzer"
     ],
+    "label": {
+      "fr": "Albert Schweitzer",
+      "en": "Albert Schweitzer"
+    },
     "birth": 1875,
     "nationality": "Franco-German"
   },
@@ -1687,6 +2271,10 @@
       "John Searle",
       "Searlean"
     ],
+    "label": {
+      "fr": "Searle",
+      "en": "Searle"
+    },
     "birth": 1932,
     "nationality": "American"
   },
@@ -1698,6 +2286,10 @@
       "Sen",
       "Amartya Sen"
     ],
+    "label": {
+      "fr": "Sen",
+      "en": "Sen"
+    },
     "birth": 1933,
     "nationality": "Indian"
   },
@@ -1711,6 +2303,10 @@
       "Lucius Annaeus Seneca",
       "Seneca the Younger"
     ],
+    "label": {
+      "fr": "Sénèque",
+      "en": "Seneca"
+    },
     "birth": -4,
     "nationality": "Roman"
   },
@@ -1722,6 +2318,10 @@
       "Sextus Empiricus",
       "Sextus"
     ],
+    "label": {
+      "fr": "Sextus Empiricus",
+      "en": "Sextus Empiricus"
+    },
     "birth": 160,
     "nationality": "Greek"
   },
@@ -1736,6 +2336,10 @@
       "Shankara",
       "Shankaracharya"
     ],
+    "label": {
+      "fr": "Śaṅkara",
+      "en": "Śaṅkara"
+    },
     "birth": 700,
     "nationality": "Indian"
   },
@@ -1747,6 +2351,10 @@
       "Sidgwick",
       "Sidgwickian"
     ],
+    "label": {
+      "fr": "Sidgwick",
+      "en": "Sidgwick"
+    },
     "birth": 1838,
     "nationality": "English"
   },
@@ -1757,6 +2365,10 @@
       "Simone Weil",
       "Simone Weil"
     ],
+    "label": {
+      "fr": "Simone Weil",
+      "en": "Simone Weil"
+    },
     "birth": 1909,
     "nationality": "French"
   },
@@ -1767,6 +2379,10 @@
       "Singer",
       "Singer"
     ],
+    "label": {
+      "fr": "Singer",
+      "en": "Singer"
+    },
     "birth": 1946,
     "nationality": "Australian"
   },
@@ -1778,6 +2394,10 @@
       "Skinner",
       "Quentin Skinner"
     ],
+    "label": {
+      "fr": "Skinner",
+      "en": "Skinner"
+    },
     "birth": 1940,
     "nationality": "British"
   },
@@ -1790,6 +2410,10 @@
       "John Jamieson Carswell Smart",
       "John Jamieson Carswell Smart"
     ],
+    "label": {
+      "fr": "Smart",
+      "en": "Smart"
+    },
     "birth": 1920,
     "nationality": "British, later Australian"
   },
@@ -1801,6 +2425,10 @@
       "Socrates",
       "Socratic"
     ],
+    "label": {
+      "fr": "Socrate",
+      "en": "Socrates"
+    },
     "birth": -470,
     "nationality": "Greek (Athenian)"
   },
@@ -1811,6 +2439,10 @@
       "Georges Sorel",
       "Georges Sorel"
     ],
+    "label": {
+      "fr": "Georges Sorel",
+      "en": "Georges Sorel"
+    },
     "birth": 1847,
     "nationality": "French"
   },
@@ -1825,6 +2457,10 @@
       "Spinozist",
       "Spinozism"
     ],
+    "label": {
+      "fr": "Spinoza",
+      "en": "Spinoza"
+    },
     "birth": 1632,
     "nationality": "Dutch"
   },
@@ -1837,6 +2473,10 @@
       "Galen Strawson",
       "Galen Strawson"
     ],
+    "label": {
+      "fr": "Strawson",
+      "en": "Strawson"
+    },
     "birth": 1952,
     "nationality": "British"
   },
@@ -1847,6 +2487,10 @@
       "Susan Wolf",
       "Susan Wolf"
     ],
+    "label": {
+      "fr": "Susan Wolf",
+      "en": "Susan Wolf"
+    },
     "birth": 1952,
     "nationality": "American"
   },
@@ -1860,6 +2504,10 @@
       "Thales of Miletus",
       "Thales of Miletus"
     ],
+    "label": {
+      "fr": "Thalès",
+      "en": "Thales"
+    },
     "birth": -625,
     "nationality": "Greek"
   },
@@ -1873,6 +2521,10 @@
       "Henry David Thoreau",
       "Henry David Thoreau"
     ],
+    "label": {
+      "fr": "Thoreau",
+      "en": "Thoreau"
+    },
     "birth": 1817,
     "nationality": "American"
   },
@@ -1883,6 +2535,10 @@
       "Thrasymaque",
       "Thrasymachus"
     ],
+    "label": {
+      "fr": "Thrasymaque",
+      "en": "Thrasymachus"
+    },
     "birth": -459,
     "nationality": "Greek"
   },
@@ -1896,6 +2552,10 @@
       "Tolstoyism",
       "Tolstoi"
     ],
+    "label": {
+      "fr": "Léon Tolstoï",
+      "en": "Leo Tolstoy"
+    },
     "birth": 1828,
     "nationality": "Russian"
   },
@@ -1909,6 +2569,10 @@
       "Alan Turing",
       "Alan Turing"
     ],
+    "label": {
+      "fr": "Turing",
+      "en": "Turing"
+    },
     "birth": 1912,
     "nationality": "British"
   },
@@ -1919,6 +2583,10 @@
       "Peter van Inwagen",
       "Peter van Inwagen"
     ],
+    "label": {
+      "fr": "Peter van Inwagen",
+      "en": "Peter van Inwagen"
+    },
     "birth": 1942,
     "nationality": "American"
   },
@@ -1934,6 +2602,10 @@
       "Voltairian",
       "Arouet"
     ],
+    "label": {
+      "fr": "Voltaire",
+      "en": "Voltaire"
+    },
     "birth": 1694,
     "nationality": "French"
   },
@@ -1944,6 +2616,10 @@
       "Michael Walzer",
       "Michael Walzer"
     ],
+    "label": {
+      "fr": "Michael Walzer",
+      "en": "Michael Walzer"
+    },
     "birth": 1935,
     "nationality": "American"
   },
@@ -1955,6 +2631,10 @@
       "Max Weber",
       "Weberian"
     ],
+    "label": {
+      "fr": "Max Weber",
+      "en": "Max Weber"
+    },
     "birth": 1864,
     "nationality": "German"
   },
@@ -1966,6 +2646,10 @@
       "Alfred North Whitehead",
       "Whiteheadian"
     ],
+    "label": {
+      "fr": "Alfred North Whitehead",
+      "en": "Alfred North Whitehead"
+    },
     "birth": 1861,
     "nationality": "British"
   },
@@ -1979,6 +2663,10 @@
       "Oscar Wilde",
       "Oscar Wilde"
     ],
+    "label": {
+      "fr": "Wilde",
+      "en": "Wilde"
+    },
     "birth": 1854,
     "nationality": "Irish"
   },
@@ -1989,6 +2677,10 @@
       "William James",
       "William James"
     ],
+    "label": {
+      "fr": "William James",
+      "en": "William James"
+    },
     "birth": 1842,
     "nationality": "American"
   },
@@ -1999,6 +2691,10 @@
       "Bernard Williams",
       "Bernard Williams"
     ],
+    "label": {
+      "fr": "Bernard Williams",
+      "en": "Bernard Williams"
+    },
     "birth": 1929,
     "nationality": "British"
   },
@@ -2012,6 +2708,10 @@
       "Ludwig Wittgenstein",
       "Wittgensteinian"
     ],
+    "label": {
+      "fr": "Wittgenstein",
+      "en": "Wittgenstein"
+    },
     "birth": 1889,
     "nationality": "Austrian, later British"
   },
@@ -2022,6 +2722,10 @@
       "Xunzi",
       "Xunzi"
     ],
+    "label": {
+      "fr": "Xunzi",
+      "en": "Xunzi"
+    },
     "birth": -310,
     "nationality": "Chinese"
   },
@@ -2032,6 +2736,10 @@
       "Zénon de Citium",
       "Zeno of Citium"
     ],
+    "label": {
+      "fr": "Zénon de Citium",
+      "en": "Zeno of Citium"
+    },
     "birth": -334,
     "nationality": "Greek"
   },
@@ -2045,6 +2753,10 @@
       "Zhuang Zhou 莊周, called Zhuangzi (\"Master Zhuang\")",
       "Chuang Tzu"
     ],
+    "label": {
+      "fr": "Zhuangzi",
+      "en": "Zhuangzi"
+    },
     "birth": -369,
     "nationality": "Chinese"
   },
@@ -2054,7 +2766,11 @@
     "names": [
       "Philosophie analytique",
       "Analytic Philosophy"
-    ]
+    ],
+    "label": {
+      "fr": "Philosophie analytique",
+      "en": "Analytic Philosophy"
+    }
   },
   {
     "id": "aristotelianism",
@@ -2062,7 +2778,11 @@
     "names": [
       "Aristotélisme",
       "Aristotelianism"
-    ]
+    ],
+    "label": {
+      "fr": "Aristotélisme",
+      "en": "Aristotelianism"
+    }
   },
   {
     "id": "buddhism",
@@ -2070,7 +2790,11 @@
     "names": [
       "Bouddhisme",
       "Buddhism"
-    ]
+    ],
+    "label": {
+      "fr": "Bouddhisme",
+      "en": "Buddhism"
+    }
   },
   {
     "id": "confucianism",
@@ -2078,7 +2802,11 @@
     "names": [
       "Confucianisme",
       "Confucianism"
-    ]
+    ],
+    "label": {
+      "fr": "Confucianisme",
+      "en": "Confucianism"
+    }
   },
   {
     "id": "cynicism",
@@ -2086,7 +2814,11 @@
     "names": [
       "Cynisme",
       "Cynicism"
-    ]
+    ],
+    "label": {
+      "fr": "Cynisme",
+      "en": "Cynicism"
+    }
   },
   {
     "id": "empiricism",
@@ -2094,7 +2826,11 @@
     "names": [
       "Empirisme",
       "Empiricism"
-    ]
+    ],
+    "label": {
+      "fr": "Empirisme",
+      "en": "Empiricism"
+    }
   },
   {
     "id": "enlightenment",
@@ -2102,7 +2838,11 @@
     "names": [
       "Les Lumières",
       "The Enlightenment"
-    ]
+    ],
+    "label": {
+      "fr": "Les Lumières",
+      "en": "The Enlightenment"
+    }
   },
   {
     "id": "environmental-ethics",
@@ -2110,7 +2850,11 @@
     "names": [
       "Éthique environnementale",
       "Environmental Ethics"
-    ]
+    ],
+    "label": {
+      "fr": "Éthique environnementale",
+      "en": "Environmental Ethics"
+    }
   },
   {
     "id": "epicureanism",
@@ -2118,7 +2862,11 @@
     "names": [
       "Épicurisme",
       "Epicureanism"
-    ]
+    ],
+    "label": {
+      "fr": "Épicurisme",
+      "en": "Epicureanism"
+    }
   },
   {
     "id": "existentialism",
@@ -2126,7 +2874,11 @@
     "names": [
       "Existentialisme",
       "Existentialism"
-    ]
+    ],
+    "label": {
+      "fr": "Existentialisme",
+      "en": "Existentialism"
+    }
   },
   {
     "id": "german-idealism",
@@ -2134,7 +2886,11 @@
     "names": [
       "Idéalisme allemand",
       "German Idealism"
-    ]
+    ],
+    "label": {
+      "fr": "Idéalisme allemand",
+      "en": "German Idealism"
+    }
   },
   {
     "id": "liberalism",
@@ -2142,7 +2898,11 @@
     "names": [
       "Libéralisme",
       "Liberalism"
-    ]
+    ],
+    "label": {
+      "fr": "Libéralisme",
+      "en": "Liberalism"
+    }
   },
   {
     "id": "marxism",
@@ -2150,7 +2910,11 @@
     "names": [
       "Marxisme",
       "Marxism"
-    ]
+    ],
+    "label": {
+      "fr": "Marxisme",
+      "en": "Marxism"
+    }
   },
   {
     "id": "phenomenology",
@@ -2158,7 +2922,11 @@
     "names": [
       "Phénoménologie",
       "Phenomenology"
-    ]
+    ],
+    "label": {
+      "fr": "Phénoménologie",
+      "en": "Phenomenology"
+    }
   },
   {
     "id": "platonism",
@@ -2166,7 +2934,11 @@
     "names": [
       "Platonisme",
       "Platonism"
-    ]
+    ],
+    "label": {
+      "fr": "Platonisme",
+      "en": "Platonism"
+    }
   },
   {
     "id": "pragmatism",
@@ -2174,7 +2946,11 @@
     "names": [
       "Pragmatisme",
       "Pragmatism"
-    ]
+    ],
+    "label": {
+      "fr": "Pragmatisme",
+      "en": "Pragmatism"
+    }
   },
   {
     "id": "rationalism",
@@ -2182,7 +2958,11 @@
     "names": [
       "Rationalisme",
       "Rationalism"
-    ]
+    ],
+    "label": {
+      "fr": "Rationalisme",
+      "en": "Rationalism"
+    }
   },
   {
     "id": "romanticism",
@@ -2190,7 +2970,11 @@
     "names": [
       "Le romantisme",
       "Romanticism"
-    ]
+    ],
+    "label": {
+      "fr": "Le romantisme",
+      "en": "Romanticism"
+    }
   },
   {
     "id": "skepticism",
@@ -2198,7 +2982,11 @@
     "names": [
       "Scepticisme",
       "Skepticism"
-    ]
+    ],
+    "label": {
+      "fr": "Scepticisme",
+      "en": "Skepticism"
+    }
   },
   {
     "id": "stoicism",
@@ -2206,7 +2994,11 @@
     "names": [
       "Stoïcisme",
       "Stoicism"
-    ]
+    ],
+    "label": {
+      "fr": "Stoïcisme",
+      "en": "Stoicism"
+    }
   },
   {
     "id": "taoism",
@@ -2214,7 +3006,11 @@
     "names": [
       "Taoïsme",
       "Taoism"
-    ]
+    ],
+    "label": {
+      "fr": "Taoïsme",
+      "en": "Taoism"
+    }
   },
   {
     "id": "transhumanism",
@@ -2222,7 +3018,11 @@
     "names": [
       "Transhumanisme",
       "Transhumanism"
-    ]
+    ],
+    "label": {
+      "fr": "Transhumanisme",
+      "en": "Transhumanism"
+    }
   },
   {
     "id": "utilitarianism",
@@ -2230,7 +3030,11 @@
     "names": [
       "Utilitarisme",
       "Utilitarianism"
-    ]
+    ],
+    "label": {
+      "fr": "Utilitarisme",
+      "en": "Utilitarianism"
+    }
   },
   {
     "id": "vedanta",
@@ -2238,7 +3042,11 @@
     "names": [
       "Vedānta (Advaita)",
       "Vedānta (Advaita)"
-    ]
+    ],
+    "label": {
+      "fr": "Vedānta (Advaita)",
+      "en": "Vedānta (Advaita)"
+    }
   },
   {
     "id": "antigone",
@@ -2246,7 +3054,11 @@
     "names": [
       "Antigone",
       "Antigone"
-    ]
+    ],
+    "label": {
+      "fr": "Antigone",
+      "en": "Antigone"
+    }
   },
   {
     "id": "callicles",
@@ -2254,7 +3066,11 @@
     "names": [
       "Calliclès",
       "Callicles"
-    ]
+    ],
+    "label": {
+      "fr": "Calliclès",
+      "en": "Callicles"
+    }
   },
   {
     "id": "meursault",
@@ -2262,7 +3078,11 @@
     "names": [
       "Meursault",
       "Meursault"
-    ]
+    ],
+    "label": {
+      "fr": "Meursault",
+      "en": "Meursault"
+    }
   },
   {
     "id": "odysseus",
@@ -2270,6 +3090,10 @@
     "names": [
       "Ulysse",
       "Odysseus"
-    ]
+    ],
+    "label": {
+      "fr": "Ulysse",
+      "en": "Odysseus"
+    }
   }
 ]

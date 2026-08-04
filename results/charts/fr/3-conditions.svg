@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 722 316" width="722" height="316" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Ce que change une carte des problèmes">
+<title>Ce que change une carte des problèmes</title>
+<rect width="722" height="316" fill="#ffffff"/>
+<text x="24" y="34" font-size="16" font-weight="600" fill="#1c1917">Ce que change une carte des problèmes</text>
+<text x="24" y="300" font-size="11" fill="#78716c">Matière appariée : mêmes questions, même langue, ton neutre, 240 réponses par condition.</text>
+<text x="200" y="70" font-size="11.5" font-weight="600" fill="#1c1917">mise en problème (0 à 4)</text>
+<text x="464" y="70" font-size="11.5" font-weight="600" fill="#1c1917">questions sans problème identifiable</text>
+<text x="186" y="110" font-size="11.5" text-anchor="end" fill="#1c1917" font-weight="400">question nue</text>
+<rect x="200" y="96" width="42.0" height="19" fill="#a8bdd4"/>
+<text x="249.0" y="110" font-size="10.5" fill="#78716c">0,80</text>
+<rect x="464" y="96" width="108.5" height="19" fill="#a8bdd4"/>
+<text x="579.5" y="110" font-size="10.5" fill="#78716c">52 %</text>
+<text x="186" y="142" font-size="11.5" text-anchor="end" fill="#1c1917" font-weight="400">consigne de diversité</text>
+<rect x="200" y="128" width="83.8" height="19" fill="#a8bdd4"/>
+<text x="290.8" y="142" font-size="10.5" fill="#78716c">1,60</text>
+<rect x="464" y="128" width="54.2" height="19" fill="#a8bdd4"/>
+<text x="525.2" y="142" font-size="10.5" fill="#78716c">26 %</text>
+<text x="186" y="174" font-size="11.5" text-anchor="end" fill="#1c1917" font-weight="400">liste de 80 thèmes</text>
+<rect x="200" y="160" width="75.7" height="19" fill="#a8bdd4"/>
+<text x="282.7" y="174" font-size="10.5" fill="#78716c">1,44</text>
+<rect x="464" y="160" width="43.0" height="19" fill="#a8bdd4"/>
+<text x="514.0" y="174" font-size="10.5" fill="#78716c">20 %</text>
+<text x="186" y="206" font-size="11.5" text-anchor="end" fill="#1c1917" font-weight="600">carte de 29 questions</text>
+<rect x="200" y="192" width="115.1" height="19" fill="#1e3a5f"/>
+<text x="322.1" y="206" font-size="10.5" fill="#78716c">2,19</text>
+<rect x="464" y="192" width="33.1" height="19" fill="#1e3a5f"/>
+<text x="504.1" y="206" font-size="10.5" fill="#78716c">16 %</text>
+<text x="186" y="238" font-size="11.5" text-anchor="end" fill="#1c1917" font-weight="600">carte de 80 questions</text>
+<rect x="200" y="224" width="109.4" height="19" fill="#1e3a5f"/>
+<text x="316.4" y="238" font-size="10.5" fill="#78716c">2,08</text>
+<rect x="464" y="224" width="36.7" height="19" fill="#1e3a5f"/>
+<text x="507.7" y="238" font-size="10.5" fill="#78716c">17 %</text>
+<line x1="200" y1="262" x2="410" y2="262" stroke="#e7e5e4"/>
+<line x1="200" y1="262" x2="200" y2="266" stroke="#e7e5e4"/>
+<text x="200" y="278" font-size="9.5" text-anchor="middle" fill="#78716c">0</text>
+<line x1="252.5" y1="262" x2="252.5" y2="266" stroke="#e7e5e4"/>
+<text x="252.5" y="278" font-size="9.5" text-anchor="middle" fill="#78716c">1</text>
+<line x1="305" y1="262" x2="305" y2="266" stroke="#e7e5e4"/>
+<text x="305" y="278" font-size="9.5" text-anchor="middle" fill="#78716c">2</text>
+<line x1="357.5" y1="262" x2="357.5" y2="266" stroke="#e7e5e4"/>
+<text x="357.5" y="278" font-size="9.5" text-anchor="middle" fill="#78716c">3</text>
+<line x1="410" y1="262" x2="410" y2="266" stroke="#e7e5e4"/>
+<text x="410" y="278" font-size="9.5" text-anchor="middle" fill="#78716c">4</text>
+</svg>

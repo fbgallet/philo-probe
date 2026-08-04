@@ -33,6 +33,7 @@ export function openRouter() {
     temperature?: number;
     maxTokens?: number;
     json?: boolean;
+    effort?: string;
   }): Promise<ChatResponse> {
     const res = await fetch(`${BASE}/chat/completions`, {
       method: "POST",
@@ -43,6 +44,7 @@ export function openRouter() {
         temperature: opts.temperature ?? 1,
         max_tokens: opts.maxTokens,
         ...(opts.json && { response_format: { type: "json_object" } }),
+        ...(opts.effort && { reasoning: { effort: opts.effort } }),
       }),
     });
     if (!res.ok) throw new Error(`OpenRouter ${res.status}: ${(await res.text()).slice(0, 300)}`);

@@ -1,5 +1,5 @@
 // Loading and validating config/experiment.yaml, plus the batteries and the
-// referential it points at. Every guard that protects a result lives here
+// framework it points at. Every guard that protects a result lives here
 // rather than in the documentation, because documentation does not fail a run.
 
 import { existsSync, readFileSync, readdirSync } from "node:fs";
@@ -35,8 +35,15 @@ export type Condition = z.infer<typeof conditionSchema>;
 
 const configSchema = z.object({
   panel: z.array(z.object({ id: z.string(), family: z.string() })).min(1),
+  /** Reasoning effort asked of the tested models. Omitted = each provider's
+   *  own default, which is what the reference study used, for better or worse. */
+  effort: z.enum(["minimal", "low", "medium", "high", "xhigh"]).optional(),
   judge: z.object({
     model: z.string(),
+    /** The annotator's task is interpretive. The reference study left this
+     *  unset and the annotator was measurably weak on one label; raising it is
+     *  the cheapest thing to try before blaming the model. */
+    effort: z.enum(["minimal", "low", "medium", "high", "xhigh"]).optional(),
     allowSelfGrading: z.boolean().default(false),
     second: z.string().optional(),
     agreementSample: z.number().int().positive().default(30),
@@ -52,7 +59,7 @@ const configSchema = z.object({
   tones: z.array(z.string()).default(["neutral"]),
   tonedLanguages: z.array(z.string()).default([]),
   conditions: z.array(conditionSchema).min(1),
-  referential: z.object({
+  framework: z.object({
     axes: z.string(),
     figures: z.string(),
     attractors: z.array(z.string()).default([]),
@@ -74,6 +81,8 @@ const figureSchema = z.object({
   id: z.string(),
   kind: z.string(),
   names: z.array(z.string()),
+  // Optional: registries exported before 2026-08 carry matching aliases only.
+  label: z.record(z.string(), z.string()).optional(),
   birth: z.number().optional(),
   nationality: z.string().optional(),
 });
@@ -159,10 +168,10 @@ export function loadExperiment(configPath = join(ROOT, "config", "experiment.yam
 
   // ── Referential ───────────────────────────────────────────────────────────
   const needsReferential = config.conditions.some((c) => c.payload);
-  const axesPath = join(ROOT, config.referential.axes);
-  const figuresPath = join(ROOT, config.referential.figures);
+  const axesPath = join(ROOT, config.framework.axes);
+  const figuresPath = join(ROOT, config.framework.figures);
   if (needsReferential && !existsSync(axesPath))
-    fail(`A condition needs a payload but ${config.referential.axes} is missing.`);
+    fail(`A condition needs a payload but ${config.framework.axes} is missing.`);
   const axes = existsSync(axesPath)
     ? z.array(axisSchema).parse(JSON.parse(readFileSync(axesPath, "utf8")))
     : [];
