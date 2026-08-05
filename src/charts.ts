@@ -478,6 +478,75 @@ for (const loc of LOCALES) {
     written += 1;
   }
 }
+// ── Cover ───────────────────────────────────────────────────────────────────
+// The card/social image: the left panel of figure 3 — problem framing across
+// the five conditions — set in display type. It is the study's central result
+// (the map triples problem framing at matched material), and unlike a bare
+// abstraction it keeps its labels: at card size the numbers still read, and
+// the two dark bars say who wins. Localized, since the labels are text; still
+// generated from the data, so it can never contradict the article it fronts.
+function coverSvg(loc: Locale): string {
+  const t = T[loc];
+  const OPEN_FAMILIES = new Set(["panorama", "lived", "dilemma", "meta"]);
+  const framing = new Map<string, { sum: number; n: number }>();
+  for (const row of runs) {
+    const p = promptById.get(row.promptId);
+    if (!p || !OPEN_FAMILIES.has(p.family)) continue;
+    if (row.lang !== loc || row.tone !== "neutral") continue;
+    const ru = rubric.get(row.key);
+    if (typeof ru?.score !== "number") continue;
+    const f = framing.get(row.condition) ?? framing.set(row.condition, { sum: 0, n: 0 }).get(row.condition)!;
+    f.sum += ru.score;
+    f.n += 1;
+  }
+  const order = ["BARE", "NUDGE", "LIST", "MAP_CORE", "MAP_FULL"] as const;
+  require(order.every((c) => framing.get(c)?.n), "cover: a condition has no framing data");
+
+  const W = 1200, H = 630;
+  const labelX = 470, barX = 500, barMax = 560, rowH = 64, gap = 26;
+  const top = 158;
+  const sub = loc === "fr" ? "mise en problème, de 0 à 4, à matière égale" : "problem framing, 0 to 4, on matched material";
+  const body: string[] = [
+    `<text x="70" y="82" font-size="42" font-weight="650" fill="${INK}">${esc(t.c3Title)}</text>`,
+    `<text x="70" y="122" font-size="25" fill="${MUTED}">${esc(sub)}</text>`,
+  ];
+  order.forEach((cond, i) => {
+    const f = framing.get(cond)!;
+    const mean = f.sum / f.n;
+    const y = top + i * (rowH + gap);
+    const isMap = cond.startsWith("MAP_");
+    const w = (mean / 4) * barMax;
+    const value = loc === "fr" ? mean.toFixed(2).replace(".", ",") : mean.toFixed(2);
+    body.push(
+      `<text x="${labelX}" y="${y + rowH / 2 + 11}" font-size="31" text-anchor="end" font-weight="${isMap ? 650 : 400}" fill="${INK}">${esc(t.c3Rows[cond])}</text>`,
+      `<rect x="${barX}" y="${y}" width="${w.toFixed(1)}" height="${rowH}" rx="6" fill="${isMap ? ACCENT : ACCENT_SOFT}"/>`,
+      `<text x="${(barX + w + 18).toFixed(1)}" y="${y + rowH / 2 + 13}" font-size="37" font-weight="650" fill="${INK}">${value}</text>`,
+    );
+  });
+  // Discreet signature, bottom-right: the mark of the site the write-up lives
+  // on (geometry from its Logo.tsx, "standard" cut), plus the name in the
+  // muted ink of the chart notes. A signature, not an ad: one colour, small.
+  const sig = 34; // mark height, px
+  const sigY = H - 46 - sig;
+  const sigX = W - 70 - sig - 12 - 132;
+  body.push(
+    `<g transform="translate(${sigX}, ${sigY}) scale(${(sig / 92).toFixed(4)})" opacity="0.75">` +
+      `<ellipse cx="46" cy="46" rx="30" ry="24" fill="none" stroke="${MUTED}" stroke-width="5"/>` +
+      `<line x1="46" y1="8" x2="46" y2="84" stroke="${MUTED}" stroke-width="5"/>` +
+      `<line x1="40" y1="8" x2="52" y2="8" stroke="${MUTED}" stroke-width="5" stroke-linecap="round"/>` +
+      `<line x1="40" y1="84" x2="52" y2="84" stroke="${MUTED}" stroke-width="5" stroke-linecap="round"/>` +
+      `<polygon points="46,34 57,46 46,58 35,46" fill="${MUTED}"/>` +
+      `</g>`,
+    `<text x="${sigX + sig + 12}" y="${sigY + sig / 2 + 9}" font-size="26" fill="${MUTED}">Philoscopia</text>`,
+  );
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}">
+<rect width="${W}" height="${H}" fill="#faf9f7"/>
+${body.join("\n")}
+</svg>
+`;
+}
+for (const loc of LOCALES) writeFileSync(join(OUT, "charts", `cover.${loc}.svg`), coverSvg(loc));
+
 const CAPTIONS: Record<string, string> = {
   "1-modes": "The dominant mode of the answer, by what the question bears on",
   "2-crossed": "The same situation, put in three forms",

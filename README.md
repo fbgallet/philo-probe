@@ -5,10 +5,11 @@ question?** This is the harness behind a study of six mainstream models in five
 languages — run it yourself, against the models you use, with your own
 questions.
 
-The write-up is not published yet; when it is, it will be linked here (English
-by default, with a French version). Until then the protocol is in
-[PROTOCOL.md](PROTOCOL.md) and the study's own data, with the report generated
-from it, is in [results/](results/).
+The write-up: [How do generative AIs respond when you bring them a
+philosophical question?](https://www.philoscopia.com/en/blog/llm-philosophy-grooves)
+([version française](https://www.philoscopia.com/fr/blog/llm-philosophy-grooves)).
+The protocol is in [PROTOCOL.md](PROTOCOL.md) and the study's own data, with
+the report generated from it, is in [results/](results/).
 
 It measures four things on every answer:
 

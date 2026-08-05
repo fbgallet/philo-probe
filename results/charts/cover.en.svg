@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect width="1200" height="630" fill="#faf9f7"/>
+<text x="70" y="82" font-size="42" font-weight="650" fill="#1c1917">What a problem map changes</text>
+<text x="70" y="122" font-size="25" fill="#78716c">problem framing, 0 to 4, on matched material</text>
+<text x="470" y="201" font-size="31" text-anchor="end" font-weight="400" fill="#1c1917">bare question</text>
+<rect x="500" y="158" width="93.9" height="64" rx="6" fill="#a8bdd4"/>
+<text x="611.9" y="203" font-size="37" font-weight="650" fill="#1c1917">0.67</text>
+<text x="470" y="291" font-size="31" text-anchor="end" font-weight="400" fill="#1c1917">diversity instruction</text>
+<rect x="500" y="248" width="217.6" height="64" rx="6" fill="#a8bdd4"/>
+<text x="735.6" y="293" font-size="37" font-weight="650" fill="#1c1917">1.55</text>
+<text x="470" y="381" font-size="31" text-anchor="end" font-weight="400" fill="#1c1917">list of 80 themes</text>
+<rect x="500" y="338" width="180.8" height="64" rx="6" fill="#a8bdd4"/>
+<text x="698.8" y="383" font-size="37" font-weight="650" fill="#1c1917">1.29</text>
+<text x="470" y="471" font-size="31" text-anchor="end" font-weight="650" fill="#1c1917">map of 29 questions</text>
+<rect x="500" y="428" width="266.0" height="64" rx="6" fill="#1e3a5f"/>
+<text x="784.0" y="473" font-size="37" font-weight="650" fill="#1c1917">1.90</text>
+<text x="470" y="561" font-size="31" text-anchor="end" font-weight="650" fill="#1c1917">map of 80 questions</text>
+<rect x="500" y="518" width="278.3" height="64" rx="6" fill="#1e3a5f"/>
+<text x="796.3" y="563" font-size="37" font-weight="650" fill="#1c1917">1.99</text>
+<g transform="translate(952, 550) scale(0.3696)" opacity="0.75"><ellipse cx="46" cy="46" rx="30" ry="24" fill="none" stroke="#78716c" stroke-width="5"/><line x1="46" y1="8" x2="46" y2="84" stroke="#78716c" stroke-width="5"/><line x1="40" y1="8" x2="52" y2="8" stroke="#78716c" stroke-width="5" stroke-linecap="round"/><line x1="40" y1="84" x2="52" y2="84" stroke="#78716c" stroke-width="5" stroke-linecap="round"/><polygon points="46,34 57,46 46,58 35,46" fill="#78716c"/></g>
+<text x="998" y="576" font-size="26" fill="#78716c">Philoscopia</text>
+</svg>

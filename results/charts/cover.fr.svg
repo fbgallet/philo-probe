@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+<rect width="1200" height="630" fill="#faf9f7"/>
+<text x="70" y="82" font-size="42" font-weight="650" fill="#1c1917">Ce que change une carte des problèmes</text>
+<text x="70" y="122" font-size="25" fill="#78716c">mise en problème, de 0 à 4, à matière égale</text>
+<text x="470" y="201" font-size="31" text-anchor="end" font-weight="400" fill="#1c1917">question nue</text>
+<rect x="500" y="158" width="112.0" height="64" rx="6" fill="#a8bdd4"/>
+<text x="630.0" y="203" font-size="37" font-weight="650" fill="#1c1917">0,80</text>
+<text x="470" y="291" font-size="31" text-anchor="end" font-weight="400" fill="#1c1917">consigne de diversité</text>
+<rect x="500" y="248" width="223.4" height="64" rx="6" fill="#a8bdd4"/>
+<text x="741.4" y="293" font-size="37" font-weight="650" fill="#1c1917">1,60</text>
+<text x="470" y="381" font-size="31" text-anchor="end" font-weight="400" fill="#1c1917">liste de 80 thèmes</text>
+<rect x="500" y="338" width="201.8" height="64" rx="6" fill="#a8bdd4"/>
+<text x="719.8" y="383" font-size="37" font-weight="650" fill="#1c1917">1,44</text>
+<text x="470" y="471" font-size="31" text-anchor="end" font-weight="650" fill="#1c1917">carte de 29 questions</text>
+<rect x="500" y="428" width="306.8" height="64" rx="6" fill="#1e3a5f"/>
+<text x="824.8" y="473" font-size="37" font-weight="650" fill="#1c1917">2,19</text>
+<text x="470" y="561" font-size="31" text-anchor="end" font-weight="650" fill="#1c1917">carte de 80 questions</text>
+<rect x="500" y="518" width="291.7" height="64" rx="6" fill="#1e3a5f"/>
+<text x="809.7" y="563" font-size="37" font-weight="650" fill="#1c1917">2,08</text>
+<g transform="translate(952, 550) scale(0.3696)" opacity="0.75"><ellipse cx="46" cy="46" rx="30" ry="24" fill="none" stroke="#78716c" stroke-width="5"/><line x1="46" y1="8" x2="46" y2="84" stroke="#78716c" stroke-width="5"/><line x1="40" y1="8" x2="52" y2="8" stroke="#78716c" stroke-width="5" stroke-linecap="round"/><line x1="40" y1="84" x2="52" y2="84" stroke="#78716c" stroke-width="5" stroke-linecap="round"/><polygon points="46,34 57,46 46,58 35,46" fill="#78716c"/></g>
+<text x="998" y="576" font-size="26" fill="#78716c">Philoscopia</text>
+</svg>
